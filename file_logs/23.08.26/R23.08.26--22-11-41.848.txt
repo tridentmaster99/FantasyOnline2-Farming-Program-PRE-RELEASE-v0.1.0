@@ -1,0 +1,337 @@
+======================================================================
+FANTASY ONLINE 2 FARMING OPTIMIZER
+======================================================================
+
+Generated:
+R23.08.26--22-11-41.848
+
+Player level: 22
+Goal: profit
+
+DATA STATUS
+----------------------------------------------------------------------
+Database age: 1d
+NOTICE: Database is older than 24 hours.
+Market cache age: 0s
+
+CALCULATED PLAYER STATS
+----------------------------------------------------------------------
+  agility: 32
+  armor: 2391
+  intellect: 82
+  latest_trusted_sale: 1753
+  median_price: 1722
+  stamina: 71
+  strength: 46
+
+BEST FARMING TARGETS
+----------------------------------------------------------------------
+
+#1 Boulder Colorado
+  Level: 21
+  Zone: Cave of Some Return
+  HP: 2000
+  Damage: 100-200
+  Estimated kill time: 10.0s
+  Estimated kills/hour: 360.0
+  Survival rate: 95.0%
+  Expected value/kill: 224
+  Expected profit/hour: 76.78K
+
+  WHY THIS IS RECOMMENDED:
+    + Mob level is close to your character level.
+    + High kills-per-hour potential.
+    + Estimated survival rate is high.
+    + Strong expected profit per hour.
+----------------------------------------------------------------------
+
+#2 Treasure Hunter
+  Level: 32
+  Zone: Pirate Shores - Easy
+  HP: 1200
+  Damage: 100-175
+  Estimated kill time: 10.0s
+  Estimated kills/hour: 360.0
+  Survival rate: 95.0%
+  Expected value/kill: 104
+  Expected profit/hour: 35.74K
+
+  WHY THIS IS RECOMMENDED:
+    + High kills-per-hour potential.
+    + Estimated survival rate is high.
+    + Strong expected profit per hour.
+    + Drops have meaningful expected value per kill.
+
+  WHY IT MAY NOT BE IDEAL:
+    - The mob is relatively far from your level.
+----------------------------------------------------------------------
+
+#3 Domeclaw
+  Level: 32
+  Zone: Crablands - Easy
+  HP: 1300
+  Damage: 100-185
+  Estimated kill time: 10.0s
+  Estimated kills/hour: 360.0
+  Survival rate: 95.0%
+  Expected value/kill: 104
+  Expected profit/hour: 35.74K
+
+  WHY THIS IS RECOMMENDED:
+    + High kills-per-hour potential.
+    + Estimated survival rate is high.
+    + Strong expected profit per hour.
+    + Drops have meaningful expected value per kill.
+
+  WHY IT MAY NOT BE IDEAL:
+    - The mob is relatively far from your level.
+----------------------------------------------------------------------
+
+#4 Scareparrot
+  Level: 31
+  Zone: Pirate Shores - Easy
+  HP: 1200
+  Damage: 140-225
+  Estimated kill time: 10.0s
+  Estimated kills/hour: 360.0
+  Survival rate: 95.0%
+  Expected value/kill: 90
+  Expected profit/hour: 30.61K
+
+  WHY THIS IS RECOMMENDED:
+    + High kills-per-hour potential.
+    + Estimated survival rate is high.
+    + Strong expected profit per hour.
+    + Drops have meaningful expected value per kill.
+
+  WHY IT MAY NOT BE IDEAL:
+    - The mob is relatively far from your level.
+----------------------------------------------------------------------
+
+#5 Citrus Crab
+  Level: 31
+  Zone: Crablands - Easy
+  HP: 1200
+  Damage: 140-235
+  Estimated kill time: 10.0s
+  Estimated kills/hour: 360.0
+  Survival rate: 95.0%
+  Expected value/kill: 90
+  Expected profit/hour: 30.61K
+
+  WHY THIS IS RECOMMENDED:
+    + High kills-per-hour potential.
+    + Estimated survival rate is high.
+    + Strong expected profit per hour.
+    + Drops have meaningful expected value per kill.
+
+  WHY IT MAY NOT BE IDEAL:
+    - The mob is relatively far from your level.
+----------------------------------------------------------------------
+
+#6 Mimic Treasure
+  Level: 31
+  Zone: Pirate Shores - Easy
+  HP: 1200
+  Damage: 140-225
+  Estimated kill time: 10.0s
+  Estimated kills/hour: 360.0
+  Survival rate: 95.0%
+  Expected value/kill: 87
+  Expected profit/hour: 29.75K
+
+  WHY THIS IS RECOMMENDED:
+    + High kills-per-hour potential.
+    + Estimated survival rate is high.
+    + Strong expected profit per hour.
+    + Drops have meaningful expected value per kill.
+
+  WHY IT MAY NOT BE IDEAL:
+    - The mob is relatively far from your level.
+----------------------------------------------------------------------
+
+#7 Phantom Crab
+  Level: 31
+  Zone: Crablands - Easy
+  HP: 1200
+  Damage: 140-235
+  Estimated kill time: 10.0s
+  Estimated kills/hour: 360.0
+  Survival rate: 95.0%
+  Expected value/kill: 87
+  Expected profit/hour: 29.75K
+
+  WHY THIS IS RECOMMENDED:
+    + High kills-per-hour potential.
+    + Estimated survival rate is high.
+    + Strong expected profit per hour.
+    + Drops have meaningful expected value per kill.
+
+  WHY IT MAY NOT BE IDEAL:
+    - The mob is relatively far from your level.
+----------------------------------------------------------------------
+
+#8 Skull Crab
+  Level: 30
+  Zone: Pirate Shores - Easy
+  HP: 950
+  Damage: 100-150
+  Estimated kill time: 10.0s
+  Estimated kills/hour: 360.0
+  Survival rate: 95.0%
+  Expected value/kill: 74
+  Expected profit/hour: 25.48K
+
+  WHY THIS IS RECOMMENDED:
+    + High kills-per-hour potential.
+    + Estimated survival rate is high.
+    + Strong expected profit per hour.
+    + Drops have meaningful expected value per kill.
+
+  WHY IT MAY NOT BE IDEAL:
+    - The mob is relatively far from your level.
+----------------------------------------------------------------------
+
+#9 Undead Castaway
+  Level: 30
+  Zone: Pirate Shores - Easy
+  HP: 1000
+  Damage: 100-150
+  Estimated kill time: 10.0s
+  Estimated kills/hour: 360.0
+  Survival rate: 95.0%
+  Expected value/kill: 74
+  Expected profit/hour: 25.48K
+
+  WHY THIS IS RECOMMENDED:
+    + High kills-per-hour potential.
+    + Estimated survival rate is high.
+    + Strong expected profit per hour.
+    + Drops have meaningful expected value per kill.
+
+  WHY IT MAY NOT BE IDEAL:
+    - The mob is relatively far from your level.
+----------------------------------------------------------------------
+
+#10 Scuttle Crab
+  Level: 30
+  Zone: Crablands - Easy
+  HP: 1000
+  Damage: 100-150
+  Estimated kill time: 10.0s
+  Estimated kills/hour: 360.0
+  Survival rate: 95.0%
+  Expected value/kill: 74
+  Expected profit/hour: 25.48K
+
+  WHY THIS IS RECOMMENDED:
+    + High kills-per-hour potential.
+    + Estimated survival rate is high.
+    + Strong expected profit per hour.
+    + Drops have meaningful expected value per kill.
+
+  WHY IT MAY NOT BE IDEAL:
+    - The mob is relatively far from your level.
+----------------------------------------------------------------------
+
+#11 Sand Castle Crab
+  Level: 30
+  Zone: Crablands - Easy
+  HP: 1000
+  Damage: 100-160
+  Estimated kill time: 10.0s
+  Estimated kills/hour: 360.0
+  Survival rate: 95.0%
+  Expected value/kill: 74
+  Expected profit/hour: 25.48K
+
+  WHY THIS IS RECOMMENDED:
+    + High kills-per-hour potential.
+    + Estimated survival rate is high.
+    + Strong expected profit per hour.
+    + Drops have meaningful expected value per kill.
+
+  WHY IT MAY NOT BE IDEAL:
+    - The mob is relatively far from your level.
+----------------------------------------------------------------------
+
+#12 Ex Miner Pitboss
+  Level: 24
+  Zone: Swamp Grotto
+  HP: 2500
+  Damage: 75-165
+  Estimated kill time: 10.0s
+  Estimated kills/hour: 360.0
+  Survival rate: 95.0%
+  Expected value/kill: 44
+  Expected profit/hour: 15.22K
+
+  WHY THIS IS RECOMMENDED:
+    + Mob level is close to your character level.
+    + High kills-per-hour potential.
+    + Estimated survival rate is high.
+    + Strong expected profit per hour.
+----------------------------------------------------------------------
+
+#13 Undead Guard
+  Level: 32
+  Zone: Cave of Despair
+  HP: 1000
+  Damage: 100-200
+  Estimated kill time: 10.0s
+  Estimated kills/hour: 360.0
+  Survival rate: 95.0%
+  Expected value/kill: 37
+  Expected profit/hour: 12.65K
+
+  WHY THIS IS RECOMMENDED:
+    + High kills-per-hour potential.
+    + Estimated survival rate is high.
+    + Strong expected profit per hour.
+    + Drops have meaningful expected value per kill.
+
+  WHY IT MAY NOT BE IDEAL:
+    - The mob is relatively far from your level.
+----------------------------------------------------------------------
+
+#14 Undead Master Chef
+  Level: 31
+  Zone: Mirabella Cove
+  HP: 1200
+  Damage: 125-200
+  Estimated kill time: 10.0s
+  Estimated kills/hour: 360.0
+  Survival rate: 95.0%
+  Expected value/kill: 37
+  Expected profit/hour: 12.65K
+
+  WHY THIS IS RECOMMENDED:
+    + High kills-per-hour potential.
+    + Estimated survival rate is high.
+    + Strong expected profit per hour.
+    + Drops have meaningful expected value per kill.
+
+  WHY IT MAY NOT BE IDEAL:
+    - The mob is relatively far from your level.
+----------------------------------------------------------------------
+
+#15 Giant Skull Spider
+  Level: 19
+  Zone: Cave of Some Return
+  HP: 700
+  Damage: 60-100
+  Estimated kill time: 10.0s
+  Estimated kills/hour: 360.0
+  Survival rate: 95.0%
+  Expected value/kill: 30
+  Expected profit/hour: 10.26K
+
+  WHY THIS IS RECOMMENDED:
+    + Mob level is close to your character level.
+    + High kills-per-hour potential.
+    + Estimated survival rate is high.
+    + Strong expected profit per hour.
+----------------------------------------------------------------------
+
+Market prices are based on current broker data and the configured sell discount.
+======================================================================

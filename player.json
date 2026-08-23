@@ -1,0 +1,42 @@
+{
+  "level": 22,
+
+  "equipment": {
+    "helmet": "Metal Helmet",
+    "body": "Metal Body Armor",
+    "legs": "Metal Leg Armor",
+
+    "weapon": "Nightshade Wand",
+    "offhand": "Skull Shield",
+
+    "rings": [
+      "Magical Shield Ring",
+      "Scorpion Ring"
+    ],
+
+    "trinkets": [
+      "Stone Crab Relic",
+      "License To Kill"
+    ],
+
+    "implants": {
+      "left_arm": null,
+      "right_arm": null,
+      "brain": null,
+      "heart": null,
+      "left_leg": null,
+      "right_leg": null
+    },
+
+    "mount": null,
+    "relic": null,
+    "guild": null,
+    "faction": null
+  },
+
+  "settings": {
+    "goal": "profit",
+    "seconds_per_kill": null,
+    "survival_rate": null
+  }
+}

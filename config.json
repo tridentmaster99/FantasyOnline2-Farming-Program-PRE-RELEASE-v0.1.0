@@ -1,0 +1,33 @@
+{
+  "api": {
+    "base_url": "https://fantasyonline2.com/api/public",
+    "timeout_seconds": 15,
+    "market_cache_minutes": 5,
+    "requests_per_10_seconds": 5
+  },
+
+  "database": {
+    "base_url": "https://db.fantasyonline2.com",
+    "request_delay_seconds": 0.25,
+    "max_pages": 100
+  },
+
+  "optimizer": {
+    "goal": "profit",
+    "results": 5,
+    "max_level_difference": 10,
+    "include_elites": true,
+    "include_bosses": true,
+    "market_confidence_floor": 0.2,
+    "sell_discount": 0.95
+  },
+
+  "combat": {
+    "default_seconds_per_kill": 10.0,
+    "default_survival_rate": 0.95
+  },
+
+  "output": {
+    "file": "file_logs/recommendation.txt"
+  }
+}
