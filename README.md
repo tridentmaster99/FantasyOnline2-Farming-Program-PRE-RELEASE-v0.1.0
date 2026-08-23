@@ -19,58 +19,6 @@ The program uses:
 
 The program then calculates which mobs are currently the best
 targets to farm.
-
-============================================================
-1. FOLDER STRUCTURE
-============================================================
-
-FantasyFarmOptimizer/
-│
-├── config.json
-├── main.py
-├── player.json
-├── requirements.txt
-│
-├── data/
-│   ├── market.json
-│   │
-│   ├── cache/
-│   │   ├── items.json
-│   │   ├── market.json
-│   │   ├── mobs.json
-│   │   ├── skills.json
-│   │   └── zones.json
-│   │
-│   ├── game/
-│   │   ├── items.json
-│   │   └── mobs.json
-│   │
-│   ├── history/
-│   └── overrides/
-│       └── item_prices.json
-│
-├── file_logs/
-│
-├── logs/
-│
-├── output/
-│
-└── src/
-    ├── api.py
-    ├── cache.py
-    ├── combat.py
-    ├── database.py
-    ├── drops.py
-    ├── equipment.py
-    ├── market.py
-    ├── models.py
-    ├── optimizer.py
-    ├── output.py
-    ├── player.py
-    ├── report.py
-    └── scoring.py
-
-
 ============================================================
 2. FIRST SETUP
 ============================================================
