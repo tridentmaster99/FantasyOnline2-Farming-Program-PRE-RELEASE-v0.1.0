@@ -5,7 +5,7 @@
 A local farming optimizer for Fantasy Online 2.
 
 The program uses:
-- Your player level
+- Your player level 
 - Your equipped gear
 - Your calculated player stats
 - The local FO2 database
