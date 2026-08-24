@@ -23,13 +23,8 @@ class FarmingOptimizer:
 
         for item in items:
             try:
-                item_id = int(
-                    item.get("id")
-                )
-            except (
-                TypeError,
-                ValueError,
-            ):
+                item_id = int(item.get("id"))
+            except (TypeError, ValueError):
                 continue
 
             self.items_by_id[item_id] = item
@@ -47,56 +42,58 @@ class FarmingOptimizer:
     # =========================================================
 
     def player_level(self):
-        return int(
-            self.player.level
-        )
+        try:
+            return int(self.player.level)
+        except (TypeError, ValueError):
+            return 1
+
+    # =========================================================
+    # SAFE NUMBER
+    # =========================================================
+
+    @staticmethod
+    def safe_float(value, default=0.0):
+        try:
+            return float(value)
+        except (TypeError, ValueError):
+            return default
+
+    @staticmethod
+    def safe_int(value, default=0):
+        try:
+            return int(value)
+        except (TypeError, ValueError):
+            return default
 
     # =========================================================
     # ITEM SELLABILITY
     # =========================================================
 
-    def is_item_sellable(
-        self,
-        item_id,
-    ):
-        item = self.items_by_id.get(
-            int(item_id)
-        )
+    def is_item_sellable(self, item_id):
+
+        item_id = self.safe_int(item_id)
+
+        item = self.items_by_id.get(item_id)
 
         if not item:
             return False
 
         # Explicit database information takes priority.
         if "sellable" in item:
-            return bool(
-                item.get("sellable")
-            )
+            return bool(item.get("sellable"))
 
-        # FO2 database fields:
-        # vbc = vendor buy currency
-        # vbp = vendor buy price
-        # vsc = vendor sell currency
-        # vsp = vendor sell price
-        #
-        # An item with a positive market reference
-        # is considered potentially sellable.
+        # Market-related database fields.
         if item.get("mmp") is not None:
             return True
 
         if item.get("mrsf") is not None:
             return True
 
-        # Vendor value can also indicate that the item
-        # has an economic value.
+        # Vendor sell price.
         if (
-            float(
-                item.get(
-                    "vsp",
-                    0,
-                )
-                or 0
-            )
-            > 0
+            self.safe_float(
+                item.get("vsp", 0)
+            ) > 0
         ):
             return True
 
@@ -106,54 +103,37 @@ class FarmingOptimizer:
     # MOB ELIGIBILITY
     # =========================================================
 
-    def is_mob_eligible(
-        self,
-        mob,
-    ):
+    def get_mob_rejection_reason(self, mob):
 
-        level = int(
-            mob.get(
-                "level",
-                0,
-            )
-            or 0
+        level = self.safe_int(
+            mob.get("level", 0)
         )
 
         player_level = self.player_level()
 
-        max_difference = int(
+        max_difference = self.safe_int(
             self.config.get(
                 "max_level_difference",
                 20,
-            )
+            ),
+            20,
         )
 
         if level <= 0:
+            return "Mob has no valid level."
 
-            return False
-
-        if (
-            abs(
-                level
-                - player_level
+        if abs(level - player_level) > max_difference:
+            return (
+                "Mob level is outside the configured "
+                "level range."
             )
-            > max_difference
-        ):
-
-            return False
 
         is_boss = bool(
-            mob.get(
-                "boss",
-                False,
-            )
+            mob.get("boss", False)
         )
 
         is_elite = bool(
-            mob.get(
-                "elite",
-                False,
-            )
+            mob.get("elite", False)
         )
 
         if (
@@ -163,8 +143,7 @@ class FarmingOptimizer:
                 False,
             )
         ):
-
-            return False
+            return "Bosses are disabled in configuration."
 
         if (
             is_elite
@@ -173,23 +152,34 @@ class FarmingOptimizer:
                 True,
             )
         ):
+            return "Elites are disabled in configuration."
 
-            return False
+        profiles = mob.get(
+            "drop_profiles",
+            [],
+        )
 
-        return True
+        if not profiles:
+            return "Mob has no drop profiles."
+
+        return None
+
+    def is_mob_eligible(self, mob):
+
+        return (
+            self.get_mob_rejection_reason(mob)
+            is None
+        )
 
     # =========================================================
     # DROP PRICE
     # =========================================================
 
-    def get_item_market_value(
-        self,
-        item_id,
-    ):
+    def get_item_market_value(self, item_id):
 
-        market = self.market.get(
-            item_id
-        )
+        item_id = self.safe_int(item_id)
+
+        market = self.market.get(item_id)
 
         if not market:
 
@@ -199,18 +189,19 @@ class FarmingOptimizer:
                 "available": False,
             }
 
-        confidence = float(
+        confidence = self.safe_float(
             market.get(
                 "confidence",
                 0,
             )
         )
 
-        floor = float(
+        floor = self.safe_float(
             self.config.get(
                 "market_confidence_floor",
                 0.2,
-            )
+            ),
+            0.2,
         )
 
         if confidence < floor:
@@ -221,7 +212,7 @@ class FarmingOptimizer:
                 "available": False,
             }
 
-        price = float(
+        price = self.safe_float(
             market.get(
                 "median_price",
                 0,
@@ -230,18 +221,27 @@ class FarmingOptimizer:
 
         if price <= 0:
 
-            price = float(
+            price = self.safe_float(
                 market.get(
                     "lowest_price",
                     0,
                 )
             )
 
-        discount = float(
+        discount = self.safe_float(
             self.config.get(
                 "sell_discount",
                 0.95,
-            )
+            ),
+            0.95,
+        )
+
+        discount = max(
+            0.0,
+            min(
+                1.0,
+                discount,
+            ),
         )
 
         price *= discount
@@ -249,46 +249,42 @@ class FarmingOptimizer:
         return {
             "price": price,
             "confidence": confidence,
-            "available": True,
+            "available": price > 0,
         }
 
     # =========================================================
     # DROP VALUE
     # =========================================================
 
-    def calculate_drop_value(
-        self,
-        drop,
-    ):
+    def calculate_drop_value(self, drop):
 
-        item_id = drop.get(
-            "item_id"
+        item_id = self.safe_int(
+            drop.get("item_id")
         )
 
-        try:
-            item_id = int(
-                item_id
-            )
-        except (
-            TypeError,
-            ValueError,
-        ):
-            item_id = 0
-
-        chance = float(
+        chance = self.safe_float(
             drop.get(
                 "chance",
                 0,
             )
-            or 0
         )
 
-        quantity = float(
+        quantity = self.safe_float(
             drop.get(
                 "quantity",
                 1,
-            )
-            or 1
+            ),
+            1.0,
+        )
+
+        chance = max(
+            0.0,
+            chance,
+        )
+
+        quantity = max(
+            0.0,
+            quantity,
         )
 
         sellable = self.is_item_sellable(
@@ -301,12 +297,8 @@ class FarmingOptimizer:
             )
         )
 
-        price = market_info[
-            "price"
-        ]
+        price = market_info["price"]
 
-        # An item that cannot realistically be sold
-        # contributes zero market profit.
         if not sellable:
             price = 0.0
 
@@ -343,16 +335,13 @@ class FarmingOptimizer:
     # PROFILE VALUE
     # =========================================================
 
-    def calculate_profile_value(
-        self,
-        profile,
-    ):
+    def calculate_profile_value(self, profile):
 
         value = 0.0
 
         valued_drops = []
-
         unsellable_drops = []
+        unavailable_market_drops = []
 
         for drop in profile.get(
             "drops",
@@ -365,40 +354,49 @@ class FarmingOptimizer:
                 )
             )
 
-            if result["sellable"]:
-
-                value += result[
-                    "expected_value"
-                ]
-
-                if result[
-                    "expected_value"
-                ] > 0:
-
-                    valued_drops.append(
-                        result
-                    )
-
-            else:
+            if not result["sellable"]:
 
                 unsellable_drops.append(
                     result
                 )
 
-        coin_min = float(
+                continue
+
+            if not result[
+                "market_available"
+            ]:
+
+                unavailable_market_drops.append(
+                    result
+                )
+
+                continue
+
+            value += result[
+                "expected_value"
+            ]
+
+            if result[
+                "expected_value"
+            ] > 0:
+
+                valued_drops.append(
+                    result
+                )
+
+        coin_min = self.safe_float(
             profile.get(
                 "coin_min",
                 0,
             )
-            or 0
         )
 
-        coin_max = float(
+        coin_max = self.safe_float(
             profile.get(
                 "coin_max",
                 coin_min,
-            )
-            or coin_min
+            ),
+            coin_min,
         )
 
         expected_coins = (
@@ -420,56 +418,67 @@ class FarmingOptimizer:
             "expected_coins": expected_coins,
             "drops": valued_drops,
             "unsellable_drops": unsellable_drops,
+            "unavailable_market_drops":
+                unavailable_market_drops,
         }
 
     # =========================================================
     # TIME TO KILL
     # =========================================================
 
-    def estimate_seconds_per_kill(
-        self,
-        mob,
-    ):
+    def estimate_seconds_per_kill(self, mob):
 
-        default = float(
+        default = self.safe_float(
             self.config.get(
                 "default_seconds_per_kill",
                 10.0,
-            )
+            ),
+            10.0,
         )
 
-        mob_hp = float(
+        mob_hp = self.safe_float(
             mob.get(
                 "hp",
                 0,
             )
-            or 0
         )
 
         if mob_hp <= 0:
-            return default
+            return max(
+                1.0,
+                default,
+            )
 
-        stats = self.player_stats[
-            "stats"
-        ]
+        stats = self.player_stats.get(
+            "stats",
+            {}
+        )
 
-        damage = stats.get(
-            "damage",
-            0,
+        damage = self.safe_float(
+            stats.get(
+                "damage",
+                0,
+            )
         )
 
         if damage <= 0:
 
-            damage = stats.get(
-                "attack",
-                0,
+            damage = self.safe_float(
+                stats.get(
+                    "attack",
+                    0,
+                )
             )
 
         if damage <= 0:
-            return default
+            return max(
+                1.0,
+                default,
+            )
 
         kills = math.ceil(
-            mob_hp / max(
+            mob_hp
+            / max(
                 1.0,
                 damage,
             )
@@ -477,25 +486,21 @@ class FarmingOptimizer:
 
         return max(
             1.0,
-            kills,
+            float(kills),
         )
 
     # =========================================================
     # SURVIVAL
     # =========================================================
 
-    def estimate_survival(
-        self,
-        mob,
-    ):
+    def estimate_survival(self, mob):
 
-        configured = self.config.get(
-            "default_survival_rate",
+        configured = self.safe_float(
+            self.config.get(
+                "default_survival_rate",
+                0.95,
+            ),
             0.95,
-        )
-
-        configured = float(
-            configured
         )
 
         return max(
@@ -510,16 +515,17 @@ class FarmingOptimizer:
     # REASONS
     # =========================================================
 
-    def generate_reasons(
-        self,
-        result,
-    ):
+    def generate_reasons(self, result):
 
         reasons = []
 
         player_level = self.player_level()
-        mob_level = int(
-            result["mob_level"]
+
+        mob_level = self.safe_int(
+            result.get(
+                "mob_level",
+                0,
+            )
         )
 
         level_difference = abs(
@@ -527,65 +533,90 @@ class FarmingOptimizer:
             - player_level
         )
 
-        if result[
-            "expected_coins_per_hour"
-        ] > 0:
+        profit = self.safe_float(
+            result.get(
+                "expected_coins_per_hour",
+                0,
+            )
+        )
 
+        value_per_kill = self.safe_float(
+            result.get(
+                "expected_value_per_kill",
+                0,
+            )
+        )
+
+        survival = self.safe_float(
+            result.get(
+                "survival_rate",
+                0,
+            )
+        )
+
+        kills_per_hour = self.safe_float(
+            result.get(
+                "kills_per_hour",
+                0,
+            )
+        )
+
+        seconds = self.safe_float(
+            result.get(
+                "seconds_per_kill",
+                0,
+            )
+        )
+
+        if profit > 0:
             reasons.append(
                 (
-                    result[
-                        "expected_coins_per_hour"
-                    ],
+                    profit,
                     "Strong expected profit per hour."
                 )
             )
 
-        if result[
-            "expected_value_per_kill"
-        ] > 0:
-
+        if value_per_kill > 0:
             reasons.append(
                 (
-                    result[
-                        "expected_value_per_kill"
-                    ],
+                    value_per_kill,
                     "Drops have meaningful expected value per kill."
                 )
             )
 
         if level_difference <= 3:
-
             reasons.append(
                 (
-                    1000000
+                    1_000_000
                     - level_difference,
                     "Mob level is close to your character level."
                 )
             )
 
-        if result[
-            "survival_rate"
-        ] >= 0.9:
-
+        if survival >= 0.9:
             reasons.append(
                 (
-                    result[
-                        "survival_rate"
-                    ] * 100000,
+                    survival * 100_000,
                     "Estimated survival rate is high."
                 )
             )
 
-        if result[
-            "kills_per_hour"
-        ] >= 100:
-
+        if kills_per_hour >= 100:
             reasons.append(
                 (
-                    result[
-                        "kills_per_hour"
-                    ] * 1000,
+                    kills_per_hour * 1_000,
                     "High kills-per-hour potential."
+                )
+            )
+
+        if seconds <= 5:
+            reasons.append(
+                (
+                    500_000 / max(
+                        seconds,
+                        1,
+                    ),
+                    "The estimated kill time is very fast."
                 )
             )
 
@@ -602,21 +633,19 @@ class FarmingOptimizer:
             ):
 
                 confidence_values.append(
-                    drop.get(
-                        "confidence",
-                        0,
+                    self.safe_float(
+                        drop.get(
+                            "confidence",
+                            0,
+                        )
                     )
                 )
 
         if confidence_values:
 
             average_confidence = (
-                sum(
-                    confidence_values
-                )
-                / len(
-                    confidence_values
-                )
+                sum(confidence_values)
+                / len(confidence_values)
             )
 
             if average_confidence >= 0.8:
@@ -624,7 +653,7 @@ class FarmingOptimizer:
                 reasons.append(
                     (
                         average_confidence
-                        * 100000,
+                        * 100_000,
                         "Market data has high confidence."
                     )
                 )
@@ -639,16 +668,17 @@ class FarmingOptimizer:
             for _, reason in reasons[:4]
         ]
 
-    def generate_why_not(
-        self,
-        result,
-    ):
+    def generate_why_not(self, result):
 
         reasons = []
 
         player_level = self.player_level()
-        mob_level = int(
-            result["mob_level"]
+
+        mob_level = self.safe_int(
+            result.get(
+                "mob_level",
+                0,
+            )
         )
 
         level_difference = abs(
@@ -656,8 +686,35 @@ class FarmingOptimizer:
             - player_level
         )
 
-        if level_difference >= 7:
+        seconds = self.safe_float(
+            result.get(
+                "seconds_per_kill",
+                0,
+            )
+        )
 
+        survival = self.safe_float(
+            result.get(
+                "survival_rate",
+                0,
+            )
+        )
+
+        value_per_kill = self.safe_float(
+            result.get(
+                "expected_value_per_kill",
+                0,
+            )
+        )
+
+        profit = self.safe_float(
+            result.get(
+                "expected_coins_per_hour",
+                0,
+            )
+        )
+
+        if level_difference >= 7:
             reasons.append(
                 (
                     level_difference,
@@ -665,44 +722,37 @@ class FarmingOptimizer:
                 )
             )
 
-        if result[
-            "seconds_per_kill"
-        ] >= 20:
-
+        if seconds >= 20:
             reasons.append(
                 (
-                    result[
-                        "seconds_per_kill"
-                    ],
+                    seconds,
                     "Kill time is relatively slow."
                 )
             )
 
-        if result[
-            "survival_rate"
-        ] < 0.8:
-
+        if survival < 0.8:
             reasons.append(
                 (
                     100
-                    - result[
-                        "survival_rate"
-                    ] * 100,
+                    - survival * 100,
                     "Estimated survival rate is low."
                 )
             )
 
-        if result[
-            "expected_value_per_kill"
-        ] < 10:
-
+        if value_per_kill < 10:
             reasons.append(
                 (
                     10
-                    - result[
-                        "expected_value_per_kill"
-                    ],
+                    - value_per_kill,
                     "Expected value per kill is low."
+                )
+            )
+
+        if profit <= 0:
+            reasons.append(
+                (
+                    100,
+                    "No meaningful market profit was calculated."
                 )
             )
 
@@ -718,10 +768,15 @@ class FarmingOptimizer:
                 [],
             ):
 
-                if drop.get(
-                    "confidence",
-                    0,
-                ) < 0.5:
+                if (
+                    self.safe_float(
+                        drop.get(
+                            "confidence",
+                            0,
+                        )
+                    )
+                    < 0.5
+                ):
 
                     low_confidence = True
                     break
@@ -752,23 +807,33 @@ class FarmingOptimizer:
     # MOB VALUE
     # =========================================================
 
-    def evaluate_mob(
-        self,
-        mob,
-    ):
+    def evaluate_mob(self, mob):
 
-        if not self.is_mob_eligible(
-            mob
-        ):
+        rejection_reason = (
+            self.get_mob_rejection_reason(
+                mob
+            )
+        )
+
+        if rejection_reason:
+
+            self.rejected_mobs.append(
+                {
+                    "mob_id": mob.get("id"),
+                    "mob_name": mob.get(
+                        "name",
+                        "Unknown",
+                    ),
+                    "reason": rejection_reason,
+                }
+            )
+
             return None
 
         profiles = mob.get(
             "drop_profiles",
             [],
         )
-
-        if not profiles:
-            return None
 
         profile_results = []
 
@@ -783,6 +848,9 @@ class FarmingOptimizer:
             profile_results.append(
                 result
             )
+
+        if not profile_results:
+            return None
 
         best_profile = max(
             profile_results,
@@ -812,11 +880,30 @@ class FarmingOptimizer:
 
         expected_kills_per_hour = (
             3600.0
-            / seconds
+            / max(
+                1.0,
+                seconds,
+            )
         )
 
         gross_per_hour = (
             value_per_kill
+            * expected_kills_per_hour
+            * survival
+        )
+
+        xp_per_kill = self.safe_float(
+            mob.get(
+                "xp",
+                mob.get(
+                    "experience",
+                    0,
+                ),
+            )
+        )
+
+        xp_per_hour = (
+            xp_per_kill
             * expected_kills_per_hour
             * survival
         )
@@ -829,22 +916,32 @@ class FarmingOptimizer:
                 "name",
                 "Unknown",
             ),
-            "mob_level": mob.get(
-                "level",
-                0,
+            "mob_level": self.safe_int(
+                mob.get(
+                    "level",
+                    0,
+                )
             ),
-            "hp": mob.get(
-                "hp",
-                0,
+            "hp": self.safe_int(
+                mob.get(
+                    "hp",
+                    0,
+                )
             ),
-            "damage_min": mob.get(
-                "damage_min",
-                0,
+            "damage_min": self.safe_int(
+                mob.get(
+                    "damage_min",
+                    0,
+                )
             ),
-            "damage_max": mob.get(
-                "damage_max",
-                0,
+            "damage_max": self.safe_int(
+                mob.get(
+                    "damage_max",
+                    0,
+                )
             ),
+            "xp_per_kill": xp_per_kill,
+            "xp_per_hour": xp_per_hour,
             "zone": best_profile[
                 "zone"
             ],
@@ -852,11 +949,15 @@ class FarmingOptimizer:
                 "profile"
             ],
             "seconds_per_kill": seconds,
-            "kills_per_hour": expected_kills_per_hour,
+            "kills_per_hour":
+                expected_kills_per_hour,
             "survival_rate": survival,
-            "expected_value_per_kill": value_per_kill,
-            "expected_coins_per_hour": gross_per_hour,
-            "profile_results": profile_results,
+            "expected_value_per_kill":
+                value_per_kill,
+            "expected_coins_per_hour":
+                gross_per_hour,
+            "profile_results":
+                profile_results,
         }
 
         result["why"] = (
@@ -881,6 +982,8 @@ class FarmingOptimizer:
 
         results = []
 
+        self.rejected_mobs = []
+
         for mob in self.mobs:
 
             result = self.evaluate_mob(
@@ -893,19 +996,29 @@ class FarmingOptimizer:
                     result
                 )
 
+        # Current 0.2.0 behavior remains
+        # profit-first. Goal weighting will be
+        # introduced in the goal-system update.
         results.sort(
             key=lambda result:
-                result[
-                    "expected_coins_per_hour"
-                ],
+                result.get(
+                    "expected_coins_per_hour",
+                    0,
+                ),
             reverse=True,
         )
 
-        result_count = int(
+        result_count = self.safe_int(
             self.config.get(
                 "results",
                 15,
-            )
+            ),
+            15,
+        )
+
+        result_count = max(
+            1,
+            result_count,
         )
 
         return results[
