@@ -7,7 +7,6 @@ import requests
 
 
 class MarketClient:
-
     def __init__(
         self,
         base_url,
@@ -15,13 +14,10 @@ class MarketClient:
         cache_minutes=5,
         requests_per_10_seconds=5,
     ):
-
         self.base_url = base_url.rstrip("/")
         self.timeout = timeout_seconds
         self.cache_minutes = cache_minutes
-        self.requests_per_10_seconds = (
-            requests_per_10_seconds
-        )
+        self.requests_per_10_seconds = requests_per_10_seconds
 
         self.endpoint = (
             f"{self.base_url}/broker/search"
@@ -31,27 +27,18 @@ class MarketClient:
 
         self.session.headers.update(
             {
-                "User-Agent":
-                    "FantasyFarmOptimizer/0.2.0-pre",
-                "Accept":
-                    "application/json",
+                "User-Agent": "FantasyFarmOptimizer/0.1",
+                "Accept": "application/json",
             }
         )
 
         self.request_times = []
-
-        self.last_error = None
-
-        self.used_fallback = False
-
-        self.last_cache_age_seconds = None
 
     # =========================================================
     # RATE LIMIT
     # =========================================================
 
     def _wait_for_rate_limit(self):
-
         now = time.time()
 
         self.request_times = [
@@ -66,7 +53,6 @@ class MarketClient:
         )
 
         if len(self.request_times) >= limit:
-
             wait_time = (
                 10
                 - (
@@ -76,9 +62,7 @@ class MarketClient:
             )
 
             if wait_time > 0:
-                time.sleep(
-                    wait_time
-                )
+                time.sleep(wait_time)
 
         self.request_times.append(
             time.time()
@@ -89,38 +73,17 @@ class MarketClient:
     # =========================================================
 
     def request(self, params=None):
-
         self._wait_for_rate_limit()
 
-        try:
+        response = self.session.get(
+            self.endpoint,
+            params=params or {},
+            timeout=self.timeout,
+        )
 
-            response = self.session.get(
-                self.endpoint,
-                params=params or {},
-                timeout=self.timeout,
-            )
+        response.raise_for_status()
 
-            response.raise_for_status()
-
-            self.last_error = None
-
-            return response.json()
-
-        except requests.RequestException as error:
-
-            self.last_error = (
-                f"Market API request failed: {error}"
-            )
-
-            raise
-
-        except ValueError as error:
-
-            self.last_error = (
-                f"Market API returned invalid JSON: {error}"
-            )
-
-            raise
+        return response.json()
 
     # =========================================================
     # NORMALIZE RESPONSE
@@ -128,9 +91,7 @@ class MarketClient:
 
     @staticmethod
     def normalize_response(data):
-
         if not isinstance(data, dict):
-
             return {
                 "orders": [],
                 "items": [],
@@ -157,10 +118,24 @@ class MarketClient:
     # =========================================================
 
     def build_market(self, data):
+        """
+        Converts broker orders into:
 
-        data = self.normalize_response(
-            data
-        )
+        {
+            item_id: {
+                "name": "...",
+                "listings": [...],
+                "lowest_price": ...,
+                "median_price": ...,
+                "average_price": ...,
+                "total_quantity": ...,
+                "listing_count": ...,
+                "confidence": ...
+            }
+        }
+        """
+
+        data = self.normalize_response(data)
 
         orders = data["orders"]
         items = data["items"]
@@ -168,18 +143,14 @@ class MarketClient:
         names = {}
 
         for item in items:
-
             try:
-
                 item_id = int(
                     item.get("id")
                 )
-
             except (
                 TypeError,
                 ValueError,
             ):
-
                 continue
 
             translations = item.get(
@@ -202,9 +173,7 @@ class MarketClient:
         grouped = {}
 
         for order in orders:
-
             try:
-
                 item_id = int(
                     order.get(
                         "ItemDefinitionId"
@@ -229,7 +198,6 @@ class MarketClient:
                 TypeError,
                 ValueError,
             ):
-
                 continue
 
             if price <= 0:
@@ -243,27 +211,28 @@ class MarketClient:
                 [],
             ).append(
                 {
-                    "order_id":
-                        order.get("Id"),
-                    "price":
-                        price,
-                    "quantity":
-                        quantity,
-                    "duration":
-                        order.get("Duration"),
-                    "listed":
-                        order.get("Listed"),
+                    "order_id": order.get(
+                        "Id"
+                    ),
+                    "price": price,
+                    "quantity": quantity,
+                    "duration": order.get(
+                        "Duration"
+                    ),
+                    "listed": order.get(
+                        "Listed"
+                    ),
                     "level_requirement":
                         order.get(
                             "LevelRequirement",
                             0,
                         ),
-                    "type_id":
-                        order.get("TypeId"),
-                    "subtype_id":
-                        order.get(
-                            "SubTypeId"
-                        ),
+                    "type_id": order.get(
+                        "TypeId"
+                    ),
+                    "subtype_id": order.get(
+                        "SubTypeId"
+                    ),
                 }
             )
 
@@ -306,21 +275,15 @@ class MarketClient:
             )
 
             result[item_id] = {
-                "item_id":
+                "item_id": item_id,
+                "name": names.get(
                     item_id,
-                "name":
-                    names.get(
-                        item_id,
-                        f"Item {item_id}",
-                    ),
-                "listings":
-                    listings,
-                "lowest_price":
-                    lowest,
-                "median_price":
-                    med,
-                "average_price":
-                    average,
+                    f"Item {item_id}",
+                ),
+                "listings": listings,
+                "lowest_price": lowest,
+                "median_price": med,
+                "average_price": average,
                 "total_quantity":
                     total_quantity,
                 "listing_count":
@@ -342,42 +305,38 @@ class MarketClient:
         lowest_price,
         median_price,
     ):
-
         if listing_count <= 0:
             return 0.0
 
         if median_price <= 0:
             return 0.0
 
+        # More listings = more reliable.
         listing_factor = min(
             1.0,
             listing_count / 10.0,
         )
 
+        # More quantity = more reliable.
         quantity_factor = min(
             1.0,
             total_quantity / 100.0,
         )
 
+        # If the lowest listing is dramatically below
+        # the median, it may be an outlier.
         ratio = (
             lowest_price
             / median_price
         )
 
         if ratio >= 0.8:
-
             price_factor = 1.0
-
         elif ratio >= 0.5:
-
             price_factor = 0.75
-
         elif ratio >= 0.25:
-
             price_factor = 0.5
-
         else:
-
             price_factor = 0.25
 
         confidence = (
@@ -405,12 +364,18 @@ class MarketClient:
         self,
         max_pages=100,
     ):
-
         all_orders = []
         all_items = []
 
         seen_order_ids = set()
 
+        # The API response you supplied uses:
+        #
+        # currentPage
+        # totalPages
+        # itemsPerPage
+        #
+        # We try the conventional page parameter.
         for page in range(
             1,
             max_pages + 1,
@@ -449,13 +414,11 @@ class MarketClient:
 
                 if (
                     order_id is not None
-                    and order_id
-                    in seen_order_ids
+                    and order_id in seen_order_ids
                 ):
                     continue
 
                 if order_id is not None:
-
                     seen_order_ids.add(
                         order_id
                     )
@@ -511,7 +474,6 @@ class MarketClient:
         cache_file="data/market.json",
         max_pages=100,
     ):
-
         path = Path(
             cache_file
         )
@@ -525,15 +487,10 @@ class MarketClient:
             max_pages=max_pages
         )
 
-        now = int(
-            time.time()
-        )
-
         payload = {
             "updated_at":
-                now,
-            "data":
-                data,
+                int(time.time()),
+            "data": data,
         }
 
         path.write_text(
@@ -545,18 +502,12 @@ class MarketClient:
             encoding="utf-8",
         )
 
-        self.last_cache_age_seconds = 0
-
-        self.used_fallback = False
-
         return data
 
     def load_cache(
         self,
         cache_file="data/market.json",
-        allow_expired=False,
     ):
-
         path = Path(
             cache_file
         )
@@ -565,18 +516,15 @@ class MarketClient:
             return None
 
         try:
-
             payload = json.loads(
                 path.read_text(
                     encoding="utf-8"
                 )
             )
-
         except (
             OSError,
             json.JSONDecodeError,
         ):
-
             return None
 
         updated_at = payload.get(
@@ -584,50 +532,20 @@ class MarketClient:
             0,
         )
 
-        try:
-
-            updated_at = float(
-                updated_at
-            )
-
-        except (
-            TypeError,
-            ValueError,
-        ):
-
-            updated_at = 0
-
-        if updated_at <= 0:
-            return None
-
-        age_seconds = max(
-            0,
+        age_seconds = (
             time.time()
-            - updated_at,
-        )
-
-        self.last_cache_age_seconds = (
-            age_seconds
+            - updated_at
         )
 
         if (
-            not allow_expired
-            and age_seconds
+            age_seconds
             > self.cache_minutes * 60
         ):
             return None
 
-        data = payload.get(
+        return payload.get(
             "data"
         )
-
-        if not isinstance(
-            data,
-            dict,
-        ):
-            return None
-
-        return data
 
     # =========================================================
     # GET MARKET
@@ -639,24 +557,13 @@ class MarketClient:
         max_pages=100,
         force_refresh=False,
     ):
-
-        self.used_fallback = False
-
-        self.last_error = None
-
-        # -----------------------------------------------------
-        # NORMAL FRESH CACHE
-        # -----------------------------------------------------
-
         if not force_refresh:
 
             cached = self.load_cache(
-                cache_file,
-                allow_expired=False,
+                cache_file
             )
 
             if cached is not None:
-
                 print(
                     "Using cached market data."
                 )
@@ -665,86 +572,15 @@ class MarketClient:
                     cached
                 )
 
-        # -----------------------------------------------------
-        # TRY API
-        # -----------------------------------------------------
+        print(
+            "Downloading current market..."
+        )
 
-        try:
+        data = self.update_cache(
+            cache_file=cache_file,
+            max_pages=max_pages,
+        )
 
-            print(
-                "Downloading current market..."
-            )
-
-            data = self.update_cache(
-                cache_file=cache_file,
-                max_pages=max_pages,
-            )
-
-            return self.build_market(
-                data
-            )
-
-        except Exception as error:
-
-            self.last_error = str(
-                error
-            )
-
-            # -------------------------------------------------
-            # FALLBACK TO STALE CACHE
-            # -------------------------------------------------
-
-            stale = self.load_cache(
-                cache_file,
-                allow_expired=True,
-            )
-
-            if stale is None:
-
-                print(
-                    "Market update failed and "
-                    "no cached market data is available."
-                )
-
-                raise
-
-            self.used_fallback = True
-
-            age = (
-                self.last_cache_age_seconds
-            )
-
-            if age is None:
-
-                age_text = "unknown age"
-
-            else:
-
-                age_minutes = (
-                    age / 60
-                )
-
-                if age_minutes < 60:
-
-                    age_text = (
-                        f"{age_minutes:.0f} minutes old"
-                    )
-
-                else:
-
-                    age_text = (
-                        f"{age_minutes / 60:.1f} hours old"
-                    )
-
-            print(
-                "WARNING: Market API update failed."
-            )
-
-            print(
-                f"Using stale cached market data "
-                f"({age_text})."
-            )
-
-            return self.build_market(
-                stale
-            )
+        return self.build_market(
+            data
+        )

@@ -4,29 +4,29 @@ from pathlib import Path
 
 def format_money(value):
 
-    try:
-        value = float(value or 0)
-    except (TypeError, ValueError):
-        value = 0.0
+    value = float(
+        value or 0
+    )
 
     if value >= 1_000_000_000:
-        return f"{value / 1_000_000_000:.2f}B"
+        return (
+            f"{value / 1_000_000_000:.2f}B"
+        )
 
     if value >= 1_000_000:
-        return f"{value / 1_000_000:.2f}M"
+        return (
+            f"{value / 1_000_000:.2f}M"
+        )
 
     if value >= 1_000:
-        return f"{value / 1_000:.2f}K"
+        return (
+            f"{value / 1_000:.2f}K"
+        )
 
     return f"{value:.0f}"
 
 
 def get_file_age(path):
-
-    if not path:
-        return None
-
-    path = Path(path)
 
     if not path.exists():
         return None
@@ -44,10 +44,7 @@ def age_string(delta):
         return "unknown"
 
     seconds = int(
-        max(
-            0,
-            delta.total_seconds(),
-        )
+        delta.total_seconds()
     )
 
     if seconds < 60:
@@ -80,7 +77,9 @@ def write_recommendation(
 
     config = config or {}
 
-    path = Path(output_file)
+    path = Path(
+        output_file
+    )
 
     path.parent.mkdir(
         parents=True,
@@ -90,10 +89,6 @@ def write_recommendation(
     lines = []
 
     generated = datetime.now()
-
-    timestamp = generated.strftime(
-        "%d.%m.%y--%H:%M:%S.%f"
-    )[:-3]
 
     lines.append(
         "=" * 70
@@ -107,17 +102,22 @@ def write_recommendation(
         "=" * 70
     )
 
-    lines.append("")
+    lines.append(
+        ""
+    )
 
     lines.append(
         "Generated:"
     )
 
     lines.append(
-        timestamp
+        datetime.now().strftime(
+    "R%d.%m.%y--%H-%M-%S.%f"
+    )[:-3]
     )
-
-    lines.append("")
+    lines.append(
+        ""
+    )
 
     lines.append(
         f"Player level: {player.level}"
@@ -133,13 +133,13 @@ def write_recommendation(
         + str(
             optimizer_config.get(
                 "goal",
-                "profit",
+                "profit"
             )
         )
     )
 
     # =========================================================
-    # DATA STATUS
+    # DATABASE AGE
     # =========================================================
 
     lines.append("")
@@ -152,12 +152,14 @@ def write_recommendation(
         "-" * 70
     )
 
-    # DATABASE
-
     if database_file:
 
-        database_age = get_file_age(
+        database_path = Path(
             database_file
+        )
+
+        database_age = get_file_age(
+            database_path
         )
 
         if database_age is None:
@@ -176,18 +178,18 @@ def write_recommendation(
                 )
             )
 
-            seconds = (
-                database_age.total_seconds()
-            )
-
-            if seconds > 7 * 24 * 60 * 60:
+            if database_age.total_seconds() > (
+                7 * 24 * 60 * 60
+            ):
 
                 lines.append(
                     "WARNING: Database is older "
                     "than 7 days."
                 )
 
-            elif seconds > 24 * 60 * 60:
+            elif database_age.total_seconds() > (
+                24 * 60 * 60
+            ):
 
                 lines.append(
                     "NOTICE: Database is older "
@@ -200,12 +202,14 @@ def write_recommendation(
                     "Database status: Recent"
                 )
 
-    # MARKET
-
     if market_file:
 
-        market_age = get_file_age(
+        market_path = Path(
             market_file
+        )
+
+        market_age = get_file_age(
+            market_path
         )
 
         if market_age is None:
@@ -224,24 +228,13 @@ def write_recommendation(
                 )
             )
 
-            if (
-                market_age.total_seconds()
-                > 60 * 60
+            if market_age.total_seconds() > (
+                60 * 60
             ):
 
                 lines.append(
                     "WARNING: Market data "
                     "is older than 1 hour."
-                )
-
-            elif (
-                market_age.total_seconds()
-                > 15 * 60
-            ):
-
-                lines.append(
-                    "NOTICE: Market data "
-                    "is older than 15 minutes."
                 )
 
     # =========================================================
@@ -270,14 +263,15 @@ def write_recommendation(
         ):
 
             try:
-
                 value = stats[key]
 
                 if float(
                     value
                 ).is_integer():
 
-                    value = int(value)
+                    value = int(
+                        value
+                    )
 
                 lines.append(
                     f"  {key}: {value}"
@@ -377,20 +371,6 @@ def write_recommendation(
             f"{result['damage_max']}"
         )
 
-        if "xp_per_kill" in result:
-
-            lines.append(
-                f"  XP/kill: "
-                f"{format_money(result['xp_per_kill'])}"
-            )
-
-        if "xp_per_hour" in result:
-
-            lines.append(
-                f"  XP/hour: "
-                f"{format_money(result['xp_per_hour'])}"
-            )
-
         lines.append(
             f"  Estimated kill time: "
             f"{result['seconds_per_kill']:.1f}s"
@@ -463,7 +443,7 @@ def write_recommendation(
                 )
 
         # =====================================================
-        # DROP VALUE BREAKDOWN
+        # DROP BREAKDOWN
         # =====================================================
 
         best_profile = None
@@ -529,85 +509,41 @@ def write_recommendation(
                         f"| {sellable}"
                     )
 
-            # UNSSELLABLE
-
-            unsellable = (
-                best_profile.get(
-                    "unsellable_drops",
-                    []
-                )
-            )
-
-            if unsellable:
-
-                lines.append("")
-
-                lines.append(
-                    "  FILTERED UNSELLABLE DROPS:"
-                )
-
-                unique_names = set()
-
-                for drop in unsellable:
-
-                    name = drop.get(
-                        "item_name",
-                        "Unknown item",
+                unsellable = (
+                    best_profile.get(
+                        "unsellable_drops",
+                        []
                     )
+                )
 
-                    if name in unique_names:
-                        continue
-
-                    unique_names.add(name)
+                if unsellable:
 
                     lines.append(
-                        f"    - {name}"
+                        "  FILTERED UNSSELLABLE DROPS:"
                     )
 
-            # MARKET UNAVAILABLE
+                    unique_names = set()
 
-            unavailable = (
-                best_profile.get(
-                    "unavailable_market_drops",
-                    []
-                )
-            )
+                    for drop in unsellable:
 
-            if unavailable:
+                        name = drop[
+                            "item_name"
+                        ]
 
-                lines.append("")
+                        if name in unique_names:
+                            continue
 
-                lines.append(
-                    "  MARKET DATA NOT USED:"
-                )
+                        unique_names.add(
+                            name
+                        )
 
-                unique_names = set()
-
-                for drop in unavailable:
-
-                    name = drop.get(
-                        "item_name",
-                        "Unknown item",
-                    )
-
-                    if name in unique_names:
-                        continue
-
-                    unique_names.add(name)
-
-                    lines.append(
-                        f"    - {name}: "
-                        "insufficient market confidence "
-                        "or unavailable price"
-                    )
+                        lines.append(
+                            f"    - {name}"
+                        )
 
         lines.append(
             "-" * 70
         )
-
-    # =========================================================
-    # FOOTER
-    # =========================================================
 
     lines.append("")
 
