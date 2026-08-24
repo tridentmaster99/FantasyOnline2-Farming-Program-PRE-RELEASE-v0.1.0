@@ -1,17 +1,94 @@
 {
-  "updated_at": 1787515901,
+  "updated_at": 1787573626,
   "data": {
     "orders": [
       {
-        "Id": 22093,
-        "ItemDefinitionId": 35,
-        "Price": 1250000000,
+        "Id": 22109,
+        "ItemDefinitionId": 221,
+        "Price": 1500000,
         "Duration": 30,
-        "Listed": 1787515565000,
+        "Listed": 1787555045000,
+        "LevelRequirement": 0,
+        "TypeId": 6,
+        "SubTypeId": 2,
+        "TotalCount": 153
+      },
+      {
+        "Id": 22108,
+        "ItemDefinitionId": 3149,
+        "Price": 3000000,
+        "Duration": 30,
+        "Listed": 1787551050000,
+        "LevelRequirement": 0,
+        "TypeId": 6,
+        "SubTypeId": 8,
+        "TotalCount": 153
+      },
+      {
+        "Id": 22107,
+        "ItemDefinitionId": 2233,
+        "Price": 100000,
+        "Duration": 30,
+        "Listed": 1787544420000,
+        "LevelRequirement": 30,
+        "TypeId": 3,
+        "SubTypeId": 10,
+        "TotalCount": 153
+      },
+      {
+        "Id": 22106,
+        "ItemDefinitionId": 2272,
+        "Price": 100000,
+        "Duration": 30,
+        "Listed": 1787544401000,
+        "LevelRequirement": 90,
+        "TypeId": 2,
+        "SubTypeId": 6,
+        "TotalCount": 153
+      },
+      {
+        "Id": 22104,
+        "ItemDefinitionId": 1238,
+        "Price": 1000000,
+        "Duration": 30,
+        "Listed": 1787535956000,
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 4,
-        "TotalCount": 155
+        "TotalCount": 153
+      },
+      {
+        "Id": 22099,
+        "ItemDefinitionId": 2291,
+        "Price": 130000,
+        "Duration": 30,
+        "Listed": 1787529440000,
+        "LevelRequirement": 90,
+        "TypeId": 3,
+        "SubTypeId": 5,
+        "TotalCount": 153
+      },
+      {
+        "Id": 22097,
+        "ItemDefinitionId": 1246,
+        "Price": 15000000,
+        "Duration": 30,
+        "Listed": 1787522800000,
+        "LevelRequirement": 0,
+        "TypeId": 5,
+        "SubTypeId": 0,
+        "TotalCount": 153
+      },
+      {
+        "Id": 22096,
+        "ItemDefinitionId": 1246,
+        "Price": 15000000,
+        "Duration": 30,
+        "Listed": 1787522791000,
+        "LevelRequirement": 0,
+        "TypeId": 5,
+        "SubTypeId": 0,
+        "TotalCount": 153
       },
       {
         "Id": 22092,
@@ -22,40 +99,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
-      },
-      {
-        "Id": 22085,
-        "ItemDefinitionId": 1245,
-        "Price": 11999999,
-        "Duration": 30,
-        "Listed": 1787507983000,
-        "LevelRequirement": 0,
-        "TypeId": 5,
-        "SubTypeId": 0,
-        "TotalCount": 155
-      },
-      {
-        "Id": 22084,
-        "ItemDefinitionId": 1245,
-        "Price": 11999999,
-        "Duration": 30,
-        "Listed": 1787507968000,
-        "LevelRequirement": 0,
-        "TypeId": 5,
-        "SubTypeId": 0,
-        "TotalCount": 155
-      },
-      {
-        "Id": 22083,
-        "ItemDefinitionId": 1245,
-        "Price": 11999999,
-        "Duration": 30,
-        "Listed": 1787507954000,
-        "LevelRequirement": 0,
-        "TypeId": 5,
-        "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22082,
@@ -66,7 +110,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22081,
@@ -77,7 +121,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22080,
@@ -88,7 +132,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 16,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22079,
@@ -99,7 +143,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 16,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22078,
@@ -110,7 +154,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 3,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22077,
@@ -121,29 +165,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 1,
-        "TotalCount": 155
-      },
-      {
-        "Id": 22072,
-        "ItemDefinitionId": 2199,
-        "Price": 100000,
-        "Duration": 30,
-        "Listed": 1787483031000,
-        "LevelRequirement": 0,
-        "TypeId": 5,
-        "SubTypeId": 0,
-        "TotalCount": 155
-      },
-      {
-        "Id": 22071,
-        "ItemDefinitionId": 2199,
-        "Price": 100000,
-        "Duration": 30,
-        "Listed": 1787483025000,
-        "LevelRequirement": 0,
-        "TypeId": 5,
-        "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22070,
@@ -154,7 +176,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22069,
@@ -165,7 +187,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22068,
@@ -176,7 +198,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22067,
@@ -187,7 +209,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22066,
@@ -198,7 +220,7 @@
         "LevelRequirement": 36,
         "TypeId": 3,
         "SubTypeId": 10,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22065,
@@ -209,7 +231,7 @@
         "LevelRequirement": 38,
         "TypeId": 3,
         "SubTypeId": 8,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22064,
@@ -220,7 +242,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22063,
@@ -231,7 +253,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22062,
@@ -242,7 +264,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22061,
@@ -253,7 +275,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22060,
@@ -264,7 +286,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22059,
@@ -275,7 +297,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22058,
@@ -286,7 +308,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22057,
@@ -297,7 +319,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22056,
@@ -308,7 +330,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22048,
@@ -319,7 +341,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 4,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22047,
@@ -330,7 +352,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22046,
@@ -341,7 +363,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 1,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22045,
@@ -352,7 +374,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 3,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22041,
@@ -363,7 +385,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22040,
@@ -374,7 +396,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22039,
@@ -385,7 +407,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22038,
@@ -396,7 +418,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22036,
@@ -407,7 +429,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 3,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22035,
@@ -418,7 +440,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 9,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22034,
@@ -429,7 +451,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 9,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22033,
@@ -440,7 +462,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 16,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22032,
@@ -451,7 +473,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 16,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22031,
@@ -462,7 +484,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 16,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22030,
@@ -473,7 +495,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 2,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22029,
@@ -484,7 +506,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 2,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22028,
@@ -495,7 +517,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 2,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22025,
@@ -506,7 +528,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 4,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22022,
@@ -517,7 +539,7 @@
         "LevelRequirement": 40,
         "TypeId": 3,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22019,
@@ -528,7 +550,7 @@
         "LevelRequirement": 42,
         "TypeId": 3,
         "SubTypeId": 12,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22018,
@@ -539,7 +561,7 @@
         "LevelRequirement": 42,
         "TypeId": 3,
         "SubTypeId": 12,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22017,
@@ -550,7 +572,7 @@
         "LevelRequirement": 32,
         "TypeId": 3,
         "SubTypeId": 1,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22016,
@@ -561,7 +583,7 @@
         "LevelRequirement": 32,
         "TypeId": 3,
         "SubTypeId": 1,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22015,
@@ -572,7 +594,7 @@
         "LevelRequirement": 82,
         "TypeId": 2,
         "SubTypeId": 12,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22014,
@@ -583,7 +605,7 @@
         "LevelRequirement": 62,
         "TypeId": 2,
         "SubTypeId": 12,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22011,
@@ -594,7 +616,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 6,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22010,
@@ -605,7 +627,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 2,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22009,
@@ -616,7 +638,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 16,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22008,
@@ -627,7 +649,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 1,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22007,
@@ -638,7 +660,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22006,
@@ -649,18 +671,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 17,
-        "TotalCount": 155
-      },
-      {
-        "Id": 22002,
-        "ItemDefinitionId": 1245,
-        "Price": 9000000,
-        "Duration": 30,
-        "Listed": 1787407803000,
-        "LevelRequirement": 0,
-        "TypeId": 5,
-        "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22001,
@@ -671,7 +682,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 22000,
@@ -682,7 +693,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 6,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21965,
@@ -693,7 +704,7 @@
         "LevelRequirement": 100,
         "TypeId": 3,
         "SubTypeId": 4,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21956,
@@ -704,7 +715,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21955,
@@ -715,7 +726,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21954,
@@ -726,7 +737,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21953,
@@ -737,7 +748,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21952,
@@ -748,7 +759,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21951,
@@ -759,7 +770,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21950,
@@ -770,18 +781,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 16,
-        "TotalCount": 155
-      },
-      {
-        "Id": 21932,
-        "ItemDefinitionId": 2382,
-        "Price": 30000001,
-        "Duration": 30,
-        "Listed": 1787342534000,
-        "LevelRequirement": 0,
-        "TypeId": 6,
-        "SubTypeId": 4,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21930,
@@ -792,7 +792,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21891,
@@ -803,7 +803,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 4,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21890,
@@ -814,18 +814,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 4,
-        "TotalCount": 155
-      },
-      {
-        "Id": 21889,
-        "ItemDefinitionId": 3149,
-        "Price": 2000000,
-        "Duration": 30,
-        "Listed": 1787301205000,
-        "LevelRequirement": 0,
-        "TypeId": 6,
-        "SubTypeId": 8,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21725,
@@ -836,18 +825,7 @@
         "LevelRequirement": 0,
         "TypeId": 3,
         "SubTypeId": 7,
-        "TotalCount": 155
-      },
-      {
-        "Id": 21702,
-        "ItemDefinitionId": 1246,
-        "Price": 14000000,
-        "Duration": 30,
-        "Listed": 1787236648000,
-        "LevelRequirement": 0,
-        "TypeId": 5,
-        "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21698,
@@ -858,7 +836,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 17,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21697,
@@ -869,7 +847,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 17,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21696,
@@ -880,7 +858,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 17,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21695,
@@ -891,7 +869,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 17,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21682,
@@ -902,7 +880,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 1,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21676,
@@ -913,7 +891,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 4,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21675,
@@ -924,7 +902,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 17,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21674,
@@ -935,7 +913,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 16,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21673,
@@ -946,7 +924,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 6,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21672,
@@ -957,7 +935,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 3,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21671,
@@ -968,7 +946,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 1,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21670,
@@ -979,7 +957,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21665,
@@ -990,7 +968,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21648,
@@ -1001,7 +979,7 @@
         "LevelRequirement": 0,
         "TypeId": 3,
         "SubTypeId": 7,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21637,
@@ -1012,7 +990,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 2,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21636,
@@ -1023,7 +1001,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 1,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21635,
@@ -1034,7 +1012,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 16,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21634,
@@ -1045,7 +1023,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21621,
@@ -1056,7 +1034,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21620,
@@ -1067,7 +1045,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21619,
@@ -1078,7 +1056,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21618,
@@ -1089,7 +1067,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21617,
@@ -1100,7 +1078,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21616,
@@ -1111,7 +1089,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21615,
@@ -1122,7 +1100,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21605,
@@ -1133,7 +1111,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21604,
@@ -1144,7 +1122,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21602,
@@ -1155,7 +1133,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21549,
@@ -1166,7 +1144,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21548,
@@ -1177,7 +1155,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21540,
@@ -1188,7 +1166,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21539,
@@ -1199,7 +1177,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21521,
@@ -1210,7 +1188,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 2,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21516,
@@ -1221,7 +1199,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21506,
@@ -1232,7 +1210,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21505,
@@ -1243,7 +1221,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 4,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21504,
@@ -1254,7 +1232,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21503,
@@ -1265,7 +1243,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21381,
@@ -1276,7 +1254,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 4,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21295,
@@ -1287,7 +1265,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 3,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21290,
@@ -1298,7 +1276,7 @@
         "LevelRequirement": 90,
         "TypeId": 3,
         "SubTypeId": 10,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21238,
@@ -1309,7 +1287,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 16,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21209,
@@ -1320,7 +1298,7 @@
         "LevelRequirement": 102,
         "TypeId": 3,
         "SubTypeId": 15,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21026,
@@ -1331,7 +1309,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 21025,
@@ -1342,7 +1320,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20911,
@@ -1353,7 +1331,7 @@
         "LevelRequirement": 15,
         "TypeId": 2,
         "SubTypeId": 7,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20908,
@@ -1364,7 +1342,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20907,
@@ -1375,7 +1353,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20906,
@@ -1386,7 +1364,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20905,
@@ -1397,7 +1375,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20904,
@@ -1408,7 +1386,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20903,
@@ -1419,7 +1397,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20870,
@@ -1430,7 +1408,7 @@
         "LevelRequirement": 78,
         "TypeId": 3,
         "SubTypeId": 8,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20823,
@@ -1441,7 +1419,7 @@
         "LevelRequirement": 62,
         "TypeId": 2,
         "SubTypeId": 9,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20793,
@@ -1452,7 +1430,7 @@
         "LevelRequirement": 0,
         "TypeId": 8,
         "SubTypeId": 2,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20713,
@@ -1463,7 +1441,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20626,
@@ -1474,7 +1452,7 @@
         "LevelRequirement": 80,
         "TypeId": 3,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20625,
@@ -1485,7 +1463,7 @@
         "LevelRequirement": 82,
         "TypeId": 3,
         "SubTypeId": 2,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20624,
@@ -1496,7 +1474,7 @@
         "LevelRequirement": 84,
         "TypeId": 3,
         "SubTypeId": 6,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20623,
@@ -1507,7 +1485,7 @@
         "LevelRequirement": 78,
         "TypeId": 3,
         "SubTypeId": 8,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20622,
@@ -1518,7 +1496,7 @@
         "LevelRequirement": 76,
         "TypeId": 3,
         "SubTypeId": 10,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20414,
@@ -1529,7 +1507,7 @@
         "LevelRequirement": 52,
         "TypeId": 3,
         "SubTypeId": 1,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20413,
@@ -1540,7 +1518,7 @@
         "LevelRequirement": 52,
         "TypeId": 3,
         "SubTypeId": 1,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20412,
@@ -1551,7 +1529,7 @@
         "LevelRequirement": 52,
         "TypeId": 2,
         "SubTypeId": 2,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20411,
@@ -1562,7 +1540,7 @@
         "LevelRequirement": 54,
         "TypeId": 3,
         "SubTypeId": 6,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20410,
@@ -1573,7 +1551,7 @@
         "LevelRequirement": 50,
         "TypeId": 3,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20409,
@@ -1584,7 +1562,7 @@
         "LevelRequirement": 52,
         "TypeId": 3,
         "SubTypeId": 2,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20408,
@@ -1595,7 +1573,7 @@
         "LevelRequirement": 48,
         "TypeId": 3,
         "SubTypeId": 8,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20407,
@@ -1606,7 +1584,7 @@
         "LevelRequirement": 46,
         "TypeId": 3,
         "SubTypeId": 10,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20337,
@@ -1617,7 +1595,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 1,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20180,
@@ -1628,7 +1606,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20149,
@@ -1639,7 +1617,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20146,
@@ -1650,7 +1628,7 @@
         "LevelRequirement": 0,
         "TypeId": 5,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 20135,
@@ -1661,7 +1639,7 @@
         "LevelRequirement": 0,
         "TypeId": 3,
         "SubTypeId": 7,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 19913,
@@ -1672,7 +1650,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 1,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 19852,
@@ -1683,7 +1661,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 16,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 19611,
@@ -1694,7 +1672,7 @@
         "LevelRequirement": 0,
         "TypeId": 6,
         "SubTypeId": 0,
-        "TotalCount": 155
+        "TotalCount": 153
       },
       {
         "Id": 19243,
@@ -1705,15 +1683,15 @@
         "LevelRequirement": 72,
         "TypeId": 3,
         "SubTypeId": 17,
-        "TotalCount": 155
+        "TotalCount": 153
       }
     ],
     "items": [
       {
-        "id": 35,
-        "sfn": "angel-wings",
+        "id": 221,
+        "sfn": "outfit-astronaut-visor",
         "ty": 6,
-        "st": 4,
+        "st": 2,
         "q": 0,
         "lr": 0,
         "sr": {},
@@ -1724,45 +1702,45 @@
         "vbp": 0,
         "vsc": 0,
         "vsp": 0,
-        "mmp": 999999999,
-        "mrsf": 400000000,
+        "mmp": 999999,
+        "mrsf": 999999,
         "t": {
           "en": {
-            "d": "Fly away to the moon.\r\nLast Available: 2023\r\nNext Available: Never",
-            "n": "Angel Wings"
+            "d": "Protects you from the elements.\n\nObtained from the Astronaut Box.",
+            "n": "Astronaut Visor"
           },
           "es": {
-            "d": "Vuela hasta la luna.\nÚltima disponibilidad: 2023\nPróxima disponibilidad: nunca",
-            "n": "Alas de Ángel"
+            "d": "Te protege de los elementos.\n\nObtenido de la Caja de Astronauta.",
+            "n": "Visor de Astronauta"
           },
           "ja": {
-            "d": "月まで飛んでいけ。\n最終入手可能年：2023年\n次回入手可能時期：なし",
-            "n": "天使の翼"
+            "d": "過酷な自然環境から身を守る。\n\n宇宙飛行士ボックスから入手。",
+            "n": "宇宙飛行士のバイザー"
           },
           "ko": {
-            "d": "달까지 날아가라.\n마지막 획득 가능: 2023년\n다음 획득 가능: 없음",
-            "n": "천사 날개"
+            "d": "혹독한 자연환경으로부터 몸을 보호합니다.\n\n우주비행사 상자에서 획득.",
+            "n": "우주비행사 바이저"
           },
           "vi": {
-            "d": "Bay tới mặt trăng.\nLần cuối xuất hiện: 2023\nLần tới xuất hiện: Không bao giờ",
-            "n": "Cánh Thiên Thần"
+            "d": "Bảo vệ bạn khỏi thời tiết khắc nghiệt.\n\nNhận được từ Hộp Phi Hành Gia.",
+            "n": "Kính Phi Hành Gia"
           },
           "pt-BR": {
-            "d": "Voe até a lua.\nDisponível pela última vez: 2023\nPróxima disponibilidade: nunca",
-            "n": "Asas de Anjo"
+            "d": "Protege você das forças da natureza.\n\nObtido na Caixa de Astronauta.",
+            "n": "Viseira de Astronauta"
           },
           "zh-CN": {
-            "d": "飞向月球。\n上次可获取时间：2023年\n下次可获取时间：永不",
-            "n": "天使之翼"
+            "d": "保护你免受恶劣环境侵袭。\n\n从宇航员箱中获得。",
+            "n": "宇航员面罩"
           }
         },
         "s": null
       },
       {
-        "id": 1245,
-        "sfn": "crafting-sea-cube-hyper",
-        "ty": 5,
-        "st": 0,
+        "id": 1238,
+        "sfn": "outfit-cupid-wings",
+        "ty": 6,
+        "st": 4,
         "q": 0,
         "lr": 0,
         "sr": {},
@@ -1770,39 +1748,39 @@
         "sta": {},
         "ss": 0,
         "vbc": 0,
-        "vbp": 500000,
+        "vbp": 2500,
         "vsc": 0,
-        "vsp": 500000,
-        "mmp": 14000000,
-        "mrsf": 9999999,
+        "vsp": 0,
+        "mmp": 1500000,
+        "mrsf": 1000000,
         "t": {
           "en": {
-            "d": "The cube radiates with power and is creating a sound as if the power of the ocean itself is roaring within.",
-            "n": "Hyper Cube of the Sea"
+            "d": "Diaper not included.\n\nObtained from the Love and Luck Battle Pass.",
+            "n": "Cupid Wings"
           },
           "es": {
-            "d": "El cubo irradia poder y emite un sonido como si la fuerza del mismísimo océano rugiera en su interior.",
-            "n": "Hipercubo del Mar"
+            "d": "Pañal no incluido.\n\nSe obtiene del Pase de Batalla de Amor y Suerte.",
+            "n": "Alas de Cupido"
           },
           "ja": {
-            "d": "キューブは力を放ち、その内側で海そのものの力がうなっているかのような音を響かせる。",
-            "n": "海のハイパーキューブ"
+            "d": "おむつは付属しません。\n\n愛と幸運のバトルパスから入手できる。",
+            "n": "キューピッドの翼"
           },
           "ko": {
-            "d": "큐브는 힘을 내뿜으며 바다 자체의 힘이 안에서 포효하는 듯한 소리를 냅니다.",
-            "n": "바다의 하이퍼큐브"
+            "d": "기저귀는 포함되지 않습니다.\n\n사랑과 행운 배틀 패스에서 획득할 수 있습니다.",
+            "n": "큐피드 날개"
           },
           "vi": {
-            "d": "Khối lập phương tỏa ra sức mạnh và phát âm thanh như thể chính uy lực của đại dương đang gầm thét bên trong.",
-            "n": "Siêu Lập Phương Biển Cả"
+            "d": "Không kèm tã.\n\nNhận được từ Thẻ Chiến Đấu Tình Yêu và May Mắn.",
+            "n": "Cánh Cupid"
           },
           "pt-BR": {
-            "d": "O cubo irradia poder e produz um som como se a força do próprio oceano rugisse dentro dele.",
-            "n": "Hipercubo do Mar"
+            "d": "Fralda não inclusa.\n\nObtido no Passe de Batalha de Amor e Sorte.",
+            "n": "Asas de Cupido"
           },
           "zh-CN": {
-            "d": "立方体散发着力量，还传出声响，仿佛海洋本身正在其中咆哮。",
-            "n": "海洋超立方体"
+            "d": "不含尿布。\n\n可从爱与幸运战斗通行证获得。",
+            "n": "丘比特之翼"
           }
         },
         "s": null
@@ -1906,6 +1884,412 @@
         "s": null
       },
       {
+        "id": 2233,
+        "sfn": "armor-ps-pirate-legs",
+        "ty": 3,
+        "st": 10,
+        "q": 0,
+        "lr": 30,
+        "sr": {},
+        "bt": 0,
+        "sta": {
+          "agi": 8,
+          "arm": 800,
+          "int": 8
+        },
+        "ss": 0,
+        "vbc": 0,
+        "vbp": 2500,
+        "vsc": 0,
+        "vsp": 2500,
+        "mmp": 21000,
+        "mrsf": 19000,
+        "t": {
+          "en": {
+            "d": "Comes with a free case of scurvy.\r\n\r\nObtained in Pirate Shores.",
+            "n": "Pirate Pants"
+          },
+          "es": {
+            "d": "Incluye un caso gratis de escorbuto.\n\nSe obtiene en las Costas Piratas.",
+            "n": "Pantalones de Pirata"
+          },
+          "ja": {
+            "d": "壊血病が無料で付いてくる。\n\n海賊海岸で入手できる。",
+            "n": "海賊のズボン"
+          },
+          "ko": {
+            "d": "괴혈병 한 건이 무료로 따라온다.\n\n해적 해안에서 획득할 수 있다.",
+            "n": "해적 바지"
+          },
+          "vi": {
+            "d": "Tặng kèm một ca bệnh scorbut miễn phí.\n\nNhận được ở Bờ Biển Hải Tặc.",
+            "n": "Quần Hải Tặc"
+          },
+          "pt-BR": {
+            "d": "Vem com um caso grátis de escorbuto.\n\nObtida nas Costas Piratas.",
+            "n": "Calças de Pirata"
+          },
+          "zh-CN": {
+            "d": "免费附赠一例坏血病。\n\n可在海盗海岸获得。",
+            "n": "海盗长裤"
+          }
+        },
+        "s": null
+      },
+      {
+        "id": 2272,
+        "sfn": "weapon-ps-jolly-staff",
+        "ty": 2,
+        "st": 6,
+        "q": 0,
+        "lr": 90,
+        "sr": {
+          "int": 740
+        },
+        "bt": 0,
+        "sta": {
+          "arm": 1000,
+          "int": 90,
+          "mnd": 1000,
+          "mxd": 1500,
+          "atkr": 120,
+          "atks": 3200
+        },
+        "ss": 0,
+        "vbc": 0,
+        "vbp": 10000,
+        "vsc": 0,
+        "vsp": 10000,
+        "mmp": 195000,
+        "mrsf": 150000,
+        "t": {
+          "en": {
+            "d": "Yo-ho, yo-ho and a hex for yee!\r\n\r\nObtained in Pirate Shores.",
+            "n": "Dead Man's Staff"
+          },
+          "es": {
+            "d": "¡Yo-ho, yo-ho y una maldición para ti!\n\nSe obtiene en Costas Piratas.",
+            "n": "Bastón del Muerto"
+          },
+          "ja": {
+            "d": "ヨーホー、ヨーホー、お前に呪いをくれてやる！\n\n海賊海岸で入手できる。",
+            "n": "死者の杖"
+          },
+          "ko": {
+            "d": "요호, 요호, 네게 저주를 내려 주마!\n\n해적 해안에서 획득할 수 있다.",
+            "n": "죽은 자의 지팡이"
+          },
+          "vi": {
+            "d": "Yo-ho, yo-ho, tặng ngươi một lời nguyền!\n\nNhận được ở Bờ Biển Hải Tặc.",
+            "n": "Trượng Người Chết"
+          },
+          "pt-BR": {
+            "d": "Yo-ho, yo-ho e uma maldição para você!\n\nObtido nas Costas Piratas.",
+            "n": "Cajado do Morto"
+          },
+          "zh-CN": {
+            "d": "哟吼，哟吼，再送你一道诅咒！\n\n可在海盗海岸获得。",
+            "n": "亡者法杖"
+          }
+        },
+        "s": null
+      },
+      {
+        "id": 2291,
+        "sfn": "dungeon-spyglass",
+        "ty": 3,
+        "st": 5,
+        "q": 0,
+        "lr": 90,
+        "sr": {},
+        "bt": 0,
+        "sta": {
+          "agi": 4,
+          "arm": 800,
+          "int": 4,
+          "sta": 4,
+          "str": 4,
+          "atkp": 50
+        },
+        "ss": 0,
+        "vbc": 0,
+        "vbp": 100000,
+        "vsc": 0,
+        "vsp": 100000,
+        "mmp": 150000,
+        "mrsf": 130000,
+        "t": {
+          "en": {
+            "d": "Ahoy over there! I see yee!\n\nObtained in Pirate Shores.",
+            "n": "Blackbeard's Spyglass"
+          },
+          "es": {
+            "d": "¡Ah del otro lado! ¡Te veo!\n\nSe obtiene en Costas Piratas.",
+            "n": "Catalejo de Barbanegra"
+          },
+          "ja": {
+            "d": "そこの者、アホイ！見えてるぞ！\n\n海賊海岸で入手できる。",
+            "n": "黒ひげの望遠鏡"
+          },
+          "ko": {
+            "d": "거기 아호이! 다 보인다!\n\n해적 해안에서 획득할 수 있다.",
+            "n": "검은수염 망원경"
+          },
+          "vi": {
+            "d": "A-hôi đằng kia! Ta thấy ngươi rồi!\n\nNhận được ở Bờ Biển Hải Tặc.",
+            "n": "Ống Nhòm Râu Đen"
+          },
+          "pt-BR": {
+            "d": "Ahoy aí! Estou vendo você!\n\nObtido nas Costas Piratas.",
+            "n": "Luneta do Barba Negra"
+          },
+          "zh-CN": {
+            "d": "那边的，哟嗬！我看见你了！\n\n可在海盗海岸获得。",
+            "n": "黑胡子望远镜"
+          }
+        },
+        "s": null
+      },
+      {
+        "id": 3149,
+        "sfn": "outfit-attack-line-obsidian",
+        "ty": 6,
+        "st": 8,
+        "q": 0,
+        "lr": 0,
+        "sr": {},
+        "bt": 0,
+        "sta": {
+          "fl": 20
+        },
+        "ss": 0,
+        "vbc": 0,
+        "vbp": 10000,
+        "vsc": 0,
+        "vsp": 10000,
+        "mmp": null,
+        "mrsf": null,
+        "t": {
+          "en": {
+            "d": "Battle enemies while showing off the colors of Obsidian!\n\nObtained from the Fire & Ice Battle Pass.",
+            "n": "Obsidian Fight Line"
+          },
+          "es": {
+            "d": "¡Combate contra enemigos mientras luces los colores de Obsidiana!\n\nObtenido del Pase de Batalla Fuego y Hielo.",
+            "n": "Línea de Combate de Obsidiana"
+          },
+          "ja": {
+            "d": "黒曜石の色を誇示しながら敵と戦おう！\n\n炎と氷のバトルパスから入手。",
+            "n": "オブシディアン戦闘ライン"
+          },
+          "ko": {
+            "d": "흑요석의 색을 뽐내며 적과 싸우세요!\n\n불과 얼음 배틀 패스에서 획득.",
+            "n": "흑요석 전투선"
+          },
+          "vi": {
+            "d": "Chiến đấu với kẻ địch trong khi khoe sắc màu của Hắc Diện Thạch!\n\nNhận được từ Thẻ Chiến Đấu Lửa & Băng.",
+            "n": "Vệt Chiến Đấu Hắc Diện Thạch"
+          },
+          "pt-BR": {
+            "d": "Enfrente inimigos exibindo as cores da Obsidiana!\n\nObtido no Passe de Batalha Fogo e Gelo.",
+            "n": "Linha de Combate de Obsidiana"
+          },
+          "zh-CN": {
+            "d": "一边与敌人战斗，一边展示黑曜石的色彩！\n\n从冰与火战斗通行证中获得。",
+            "n": "黑曜石战斗轨迹"
+          }
+        },
+        "s": null
+      },
+      {
+        "id": 777,
+        "sfn": "armor-t2-agi-legs",
+        "ty": 3,
+        "st": 10,
+        "q": 0,
+        "lr": 36,
+        "sr": {
+          "agi": 150
+        },
+        "bt": 0,
+        "sta": {
+          "agi": 18,
+          "arm": 1500,
+          "set": 12,
+          "sta": 4
+        },
+        "ss": 0,
+        "vbc": 0,
+        "vbp": 75000,
+        "vsc": 0,
+        "vsp": 0,
+        "mmp": 500000,
+        "mrsf": 222222,
+        "t": {
+          "en": {
+            "d": "Move with haste, strike with force.\r\n\r\nTier 2 Agility",
+            "n": "Mighty Dragon Legs",
+            "sn": "Mighty Dragon"
+          },
+          "es": {
+            "d": "Muévete con rapidez, golpea con fuerza.\n\nAgilidad de nivel 2",
+            "n": "Grebas del Dragón Poderoso",
+            "sn": "Dragón Poderoso"
+          },
+          "ja": {
+            "d": "素早く動き、力強く打て。\n\n俊敏 ティア2",
+            "n": "マイティドラゴンの脚甲",
+            "sn": "強大なドラゴン"
+          },
+          "ko": {
+            "d": "빠르게 움직이고 강하게 공격하라.\n\n2티어 민첩",
+            "n": "강력한 용 다리갑옷",
+            "sn": "강대한 용"
+          },
+          "vi": {
+            "d": "Di chuyển mau lẹ, ra đòn mạnh mẽ.\n\nNhanh Nhẹn Bậc 2",
+            "n": "Giáp Chân Rồng Hùng Mạnh",
+            "sn": "Rồng Hùng Mạnh"
+          },
+          "pt-BR": {
+            "d": "Mova-se com rapidez, ataque com força.\n\nAgilidade de nível 2",
+            "n": "Grevas do Dragão Poderoso",
+            "sn": "Dragão Poderoso"
+          },
+          "zh-CN": {
+            "d": "迅捷移动，强势出击。\n\n2阶敏捷",
+            "n": "强力巨龙腿甲",
+            "sn": "威猛巨龙"
+          }
+        },
+        "s": {
+          "sb": {
+            "6": {
+              "agi": 2,
+              "arm": 300,
+              "atkp": 5
+            },
+            "7": {
+              "agi": 4,
+              "arm": 450,
+              "atkp": 10,
+              "crit": 1
+            },
+            "8": {
+              "agi": 6,
+              "arm": 600,
+              "atkp": 20,
+              "crit": 1
+            },
+            "9": {
+              "agi": 10,
+              "arm": 900,
+              "atkp": 30,
+              "crit": 2
+            }
+          },
+          "sid": 12
+        }
+      },
+      {
+        "id": 1289,
+        "sfn": "item-sunken-treasure",
+        "ty": 5,
+        "st": 0,
+        "q": 0,
+        "lr": 0,
+        "sr": {},
+        "bt": 0,
+        "sta": {},
+        "ss": 0,
+        "vbc": 0,
+        "vbp": 10000,
+        "vsc": 0,
+        "vsp": 10000,
+        "mmp": 45000,
+        "mrsf": 109999,
+        "t": {
+          "en": {
+            "d": "A chest containing powerful loot.",
+            "n": "Treasure Chest"
+          },
+          "es": {
+            "d": "Un cofre que contiene un botín poderoso.",
+            "n": "Cofre del Tesoro"
+          },
+          "ja": {
+            "d": "強力な戦利品が入った宝箱。",
+            "n": "宝箱"
+          },
+          "ko": {
+            "d": "강력한 전리품이 든 상자.",
+            "n": "보물상자"
+          },
+          "vi": {
+            "d": "Một chiếc rương chứa chiến lợi phẩm mạnh mẽ.",
+            "n": "Rương Kho Báu"
+          },
+          "pt-BR": {
+            "d": "Um baú que contém espólios poderosos.",
+            "n": "Baú do Tesouro"
+          },
+          "zh-CN": {
+            "d": "装有强力战利品的宝箱。",
+            "n": "宝箱"
+          }
+        },
+        "s": null
+      },
+      {
+        "id": 2199,
+        "sfn": "crafting-ps-treasure-map-1",
+        "ty": 5,
+        "st": 0,
+        "q": 0,
+        "lr": 0,
+        "sr": {},
+        "bt": 0,
+        "sta": {},
+        "ss": 0,
+        "vbc": 0,
+        "vbp": 1000,
+        "vsc": 0,
+        "vsp": 1000,
+        "mmp": 150000,
+        "mrsf": 150000,
+        "t": {
+          "en": {
+            "d": "A torn piece of map.\n\nObtained in Pirate Shores.",
+            "n": "Torn Map Piece 1"
+          },
+          "es": {
+            "d": "Un trozo de mapa roto.\n\nSe obtiene en las Costas Piratas.",
+            "n": "Trozo de Mapa Roto 1"
+          },
+          "ja": {
+            "d": "破れた地図の欠片。\n\n海賊海岸で入手できる。",
+            "n": "破れた地図の欠片1"
+          },
+          "ko": {
+            "d": "찢어진 지도 조각.\n\n해적 해안에서 획득할 수 있다.",
+            "n": "찢어진 지도 조각 1"
+          },
+          "vi": {
+            "d": "Một mảnh bản đồ rách.\n\nNhận được ở Bờ Biển Hải Tặc.",
+            "n": "Mảnh Bản Đồ Rách 1"
+          },
+          "pt-BR": {
+            "d": "Um pedaço de mapa rasgado.\n\nObtido nas Costas Piratas.",
+            "n": "Pedaço de Mapa Rasgado 1"
+          },
+          "zh-CN": {
+            "d": "一块破损的地图碎片。\n\n可在海盗海岸获得。",
+            "n": "破损地图碎片1"
+          }
+        },
+        "s": null
+      },
+      {
         "id": 2644,
         "sfn": "outfit-peppermint-legs",
         "ty": 6,
@@ -1950,6 +2334,55 @@
           "zh-CN": {
             "d": "将拐杖糖的力量注入薄荷糖腿甲，制成外观版本。\n\n可在节日岛获得。",
             "n": "薄荷糖腿甲"
+          }
+        },
+        "s": null
+      },
+      {
+        "id": 2645,
+        "sfn": "outfit-peppermint-body",
+        "ty": 6,
+        "st": 1,
+        "q": 0,
+        "lr": 0,
+        "sr": {},
+        "bt": 0,
+        "sta": {},
+        "ss": 0,
+        "vbc": 0,
+        "vbp": 0,
+        "vsc": 0,
+        "vsp": 0,
+        "mmp": null,
+        "mrsf": 750000,
+        "t": {
+          "en": {
+            "d": "A Peppermint Body infused with the power of Candy Cane to create an outfit version.\r\n\r\nObtained in Holiday Isle.",
+            "n": "Peppermint Body"
+          },
+          "es": {
+            "d": "Al imbuir Armadura de Menta con el poder del Bastón de Caramelo, se crea una versión de atuendo.\n\nSe obtiene en Isla Festiva.",
+            "n": "Armadura de Menta"
+          },
+          "ja": {
+            "d": "ペパーミントの胴鎧にキャンディケインの力を注ぎ、コスチューム版にしたもの。\n\nホリデー島で入手できる。",
+            "n": "ペパーミントの胴鎧"
+          },
+          "ko": {
+            "d": "페퍼민트 몸통갑옷에 지팡이 사탕의 힘을 불어넣어 의상 버전으로 만들었습니다.\n\n홀리데이 섬에서 획득할 수 있습니다.",
+            "n": "페퍼민트 몸통갑옷"
+          },
+          "vi": {
+            "d": "Truyền sức mạnh của Kẹo Gậy vào Giáp Thân Bạc Hà Cay để tạo ra phiên bản ngoại trang.\n\nNhận được ở Đảo Lễ Hội.",
+            "n": "Giáp Thân Bạc Hà Cay"
+          },
+          "pt-BR": {
+            "d": "Ao imbuir Armadura de Hortelã-pimenta com o poder da Bengala Doce, cria-se uma versão de traje.\n\nObtido na Ilha Festiva.",
+            "n": "Armadura de Hortelã-pimenta"
+          },
+          "zh-CN": {
+            "d": "将拐杖糖的力量注入薄荷糖胸甲，制成外观版本。\n\n可在节日岛获得。",
+            "n": "薄荷糖胸甲"
           }
         },
         "s": null
@@ -2051,96 +2484,6 @@
           }
         },
         "s": null
-      },
-      {
-        "id": 777,
-        "sfn": "armor-t2-agi-legs",
-        "ty": 3,
-        "st": 10,
-        "q": 0,
-        "lr": 36,
-        "sr": {
-          "agi": 150
-        },
-        "bt": 0,
-        "sta": {
-          "agi": 18,
-          "arm": 1500,
-          "set": 12,
-          "sta": 4
-        },
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 75000,
-        "vsc": 0,
-        "vsp": 0,
-        "mmp": 450000,
-        "mrsf": 222222,
-        "t": {
-          "en": {
-            "d": "Move with haste, strike with force.\r\n\r\nTier 2 Agility",
-            "n": "Mighty Dragon Legs",
-            "sn": "Mighty Dragon"
-          },
-          "es": {
-            "d": "Muévete con rapidez, golpea con fuerza.\n\nAgilidad de nivel 2",
-            "n": "Grebas del Dragón Poderoso",
-            "sn": "Dragón Poderoso"
-          },
-          "ja": {
-            "d": "素早く動き、力強く打て。\n\n俊敏 ティア2",
-            "n": "マイティドラゴンの脚甲",
-            "sn": "強大なドラゴン"
-          },
-          "ko": {
-            "d": "빠르게 움직이고 강하게 공격하라.\n\n2티어 민첩",
-            "n": "강력한 용 다리갑옷",
-            "sn": "강대한 용"
-          },
-          "vi": {
-            "d": "Di chuyển mau lẹ, ra đòn mạnh mẽ.\n\nNhanh Nhẹn Bậc 2",
-            "n": "Giáp Chân Rồng Hùng Mạnh",
-            "sn": "Rồng Hùng Mạnh"
-          },
-          "pt-BR": {
-            "d": "Mova-se com rapidez, ataque com força.\n\nAgilidade de nível 2",
-            "n": "Grevas do Dragão Poderoso",
-            "sn": "Dragão Poderoso"
-          },
-          "zh-CN": {
-            "d": "迅捷移动，强势出击。\n\n2阶敏捷",
-            "n": "强力巨龙腿甲",
-            "sn": "威猛巨龙"
-          }
-        },
-        "s": {
-          "sb": {
-            "6": {
-              "agi": 2,
-              "arm": 300,
-              "atkp": 5
-            },
-            "7": {
-              "agi": 4,
-              "arm": 450,
-              "atkp": 10,
-              "crit": 1
-            },
-            "8": {
-              "agi": 6,
-              "arm": 600,
-              "atkp": 20,
-              "crit": 1
-            },
-            "9": {
-              "agi": 10,
-              "arm": 900,
-              "atkp": 30,
-              "crit": 2
-            }
-          },
-          "sid": 12
-        }
       },
       {
         "id": 778,
@@ -2283,104 +2626,6 @@
         "s": null
       },
       {
-        "id": 2199,
-        "sfn": "crafting-ps-treasure-map-1",
-        "ty": 5,
-        "st": 0,
-        "q": 0,
-        "lr": 0,
-        "sr": {},
-        "bt": 0,
-        "sta": {},
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 1000,
-        "vsc": 0,
-        "vsp": 1000,
-        "mmp": 150000,
-        "mrsf": 150000,
-        "t": {
-          "en": {
-            "d": "A torn piece of map.\n\nObtained in Pirate Shores.",
-            "n": "Torn Map Piece 1"
-          },
-          "es": {
-            "d": "Un trozo de mapa roto.\n\nSe obtiene en las Costas Piratas.",
-            "n": "Trozo de Mapa Roto 1"
-          },
-          "ja": {
-            "d": "破れた地図の欠片。\n\n海賊海岸で入手できる。",
-            "n": "破れた地図の欠片1"
-          },
-          "ko": {
-            "d": "찢어진 지도 조각.\n\n해적 해안에서 획득할 수 있다.",
-            "n": "찢어진 지도 조각 1"
-          },
-          "vi": {
-            "d": "Một mảnh bản đồ rách.\n\nNhận được ở Bờ Biển Hải Tặc.",
-            "n": "Mảnh Bản Đồ Rách 1"
-          },
-          "pt-BR": {
-            "d": "Um pedaço de mapa rasgado.\n\nObtido nas Costas Piratas.",
-            "n": "Pedaço de Mapa Rasgado 1"
-          },
-          "zh-CN": {
-            "d": "一块破损的地图碎片。\n\n可在海盗海岸获得。",
-            "n": "破损地图碎片1"
-          }
-        },
-        "s": null
-      },
-      {
-        "id": 2645,
-        "sfn": "outfit-peppermint-body",
-        "ty": 6,
-        "st": 1,
-        "q": 0,
-        "lr": 0,
-        "sr": {},
-        "bt": 0,
-        "sta": {},
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 0,
-        "vsc": 0,
-        "vsp": 0,
-        "mmp": null,
-        "mrsf": 750000,
-        "t": {
-          "en": {
-            "d": "A Peppermint Body infused with the power of Candy Cane to create an outfit version.\r\n\r\nObtained in Holiday Isle.",
-            "n": "Peppermint Body"
-          },
-          "es": {
-            "d": "Al imbuir Armadura de Menta con el poder del Bastón de Caramelo, se crea una versión de atuendo.\n\nSe obtiene en Isla Festiva.",
-            "n": "Armadura de Menta"
-          },
-          "ja": {
-            "d": "ペパーミントの胴鎧にキャンディケインの力を注ぎ、コスチューム版にしたもの。\n\nホリデー島で入手できる。",
-            "n": "ペパーミントの胴鎧"
-          },
-          "ko": {
-            "d": "페퍼민트 몸통갑옷에 지팡이 사탕의 힘을 불어넣어 의상 버전으로 만들었습니다.\n\n홀리데이 섬에서 획득할 수 있습니다.",
-            "n": "페퍼민트 몸통갑옷"
-          },
-          "vi": {
-            "d": "Truyền sức mạnh của Kẹo Gậy vào Giáp Thân Bạc Hà Cay để tạo ra phiên bản ngoại trang.\n\nNhận được ở Đảo Lễ Hội.",
-            "n": "Giáp Thân Bạc Hà Cay"
-          },
-          "pt-BR": {
-            "d": "Ao imbuir Armadura de Hortelã-pimenta com o poder da Bengala Doce, cria-se uma versão de traje.\n\nObtido na Ilha Festiva.",
-            "n": "Armadura de Hortelã-pimenta"
-          },
-          "zh-CN": {
-            "d": "将拐杖糖的力量注入薄荷糖胸甲，制成外观版本。\n\n可在节日岛获得。",
-            "n": "薄荷糖胸甲"
-          }
-        },
-        "s": null
-      },
-      {
         "id": 35,
         "sfn": "angel-wings",
         "ty": 6,
@@ -2425,106 +2670,6 @@
           "zh-CN": {
             "d": "飞向月球。\n上次可获取时间：2023年\n下次可获取时间：永不",
             "n": "天使之翼"
-          }
-        },
-        "s": null
-      },
-      {
-        "id": 1539,
-        "sfn": "item-dark-soul-fragment",
-        "ty": 5,
-        "st": 0,
-        "q": 0,
-        "lr": 0,
-        "sr": {},
-        "bt": 0,
-        "sta": {},
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 15000,
-        "vsc": 0,
-        "vsp": 15000,
-        "mmp": 200000,
-        "mrsf": 250000,
-        "t": {
-          "en": {
-            "d": "A solid piece of a lost soul that can now be refined.",
-            "n": "Soul Fragment"
-          },
-          "es": {
-            "d": "Un fragmento sólido de un alma perdida que ya puede refinarse.",
-            "n": "Fragmento de Alma"
-          },
-          "ja": {
-            "d": "失われた魂が固まった欠片。これで精製できる。",
-            "n": "魂の欠片"
-          },
-          "ko": {
-            "d": "잃어버린 영혼이 굳어진 조각으로, 이제 정제할 수 있다.",
-            "n": "영혼 조각"
-          },
-          "vi": {
-            "d": "Một mảnh rắn của linh hồn thất lạc, giờ có thể tinh luyện.",
-            "n": "Mảnh Linh Hồn"
-          },
-          "pt-BR": {
-            "d": "Um pedaço sólido de uma alma perdida que agora pode ser refinado.",
-            "n": "Fragmento de Alma"
-          },
-          "zh-CN": {
-            "d": "一块凝固的失落灵魂，如今可以进一步精炼。",
-            "n": "灵魂碎片"
-          }
-        },
-        "s": null
-      },
-      {
-        "id": 2435,
-        "sfn": "outfit-cyber-warrior-head",
-        "ty": 6,
-        "st": 0,
-        "q": 0,
-        "lr": 0,
-        "sr": {},
-        "bt": 0,
-        "sta": {
-          "h": 1
-        },
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 2500,
-        "vsc": 0,
-        "vsp": 2500,
-        "mmp": 59999,
-        "mrsf": 89999,
-        "t": {
-          "en": {
-            "d": "Armor plating? Nah, that's RGB lighting.\r\n\r\nObtained from the Space Battle Pass.",
-            "n": "Cyber Warrior Headpiece"
-          },
-          "es": {
-            "d": "¿Placas de armadura? No, es iluminación RGB.\n\nSe obtiene del Pase de Batalla Espacial.",
-            "n": "Tocado del Guerrero Cibernético"
-          },
-          "ja": {
-            "d": "装甲板？ いや、RGBライティングだ。\n\n宇宙バトルパスから入手できる。",
-            "n": "サイバーウォリアーの頭飾り"
-          },
-          "ko": {
-            "d": "장갑판이요? 아니요, RGB 조명입니다.\n\n우주 배틀 패스에서 획득할 수 있습니다.",
-            "n": "사이버 전사 머리 장식"
-          },
-          "vi": {
-            "d": "Tấm giáp à? Không, đó là đèn RGB.\n\nNhận được từ Thẻ Chiến Đấu Không Gian.",
-            "n": "Mũ Chiến Binh Công Nghệ"
-          },
-          "pt-BR": {
-            "d": "Placas de armadura? Nada, isso é iluminação RGB.\n\nObtido no Passe de Batalha Espacial.",
-            "n": "Adorno do Guerreiro Cibernético"
-          },
-          "zh-CN": {
-            "d": "装甲板？不，那是RGB灯效。\n\n可从太空战斗通行证获得。",
-            "n": "赛博战士头饰"
           }
         },
         "s": null
@@ -2677,6 +2822,57 @@
         "s": null
       },
       {
+        "id": 2435,
+        "sfn": "outfit-cyber-warrior-head",
+        "ty": 6,
+        "st": 0,
+        "q": 0,
+        "lr": 0,
+        "sr": {},
+        "bt": 0,
+        "sta": {
+          "h": 1
+        },
+        "ss": 0,
+        "vbc": 0,
+        "vbp": 2500,
+        "vsc": 0,
+        "vsp": 2500,
+        "mmp": 59999,
+        "mrsf": 89999,
+        "t": {
+          "en": {
+            "d": "Armor plating? Nah, that's RGB lighting.\r\n\r\nObtained from the Space Battle Pass.",
+            "n": "Cyber Warrior Headpiece"
+          },
+          "es": {
+            "d": "¿Placas de armadura? No, es iluminación RGB.\n\nSe obtiene del Pase de Batalla Espacial.",
+            "n": "Tocado del Guerrero Cibernético"
+          },
+          "ja": {
+            "d": "装甲板？ いや、RGBライティングだ。\n\n宇宙バトルパスから入手できる。",
+            "n": "サイバーウォリアーの頭飾り"
+          },
+          "ko": {
+            "d": "장갑판이요? 아니요, RGB 조명입니다.\n\n우주 배틀 패스에서 획득할 수 있습니다.",
+            "n": "사이버 전사 머리 장식"
+          },
+          "vi": {
+            "d": "Tấm giáp à? Không, đó là đèn RGB.\n\nNhận được từ Thẻ Chiến Đấu Không Gian.",
+            "n": "Mũ Chiến Binh Công Nghệ"
+          },
+          "pt-BR": {
+            "d": "Placas de armadura? Nada, isso é iluminação RGB.\n\nObtido no Passe de Batalha Espacial.",
+            "n": "Adorno do Guerreiro Cibernético"
+          },
+          "zh-CN": {
+            "d": "装甲板？不，那是RGB灯效。\n\n可从太空战斗通行证获得。",
+            "n": "赛博战士头饰"
+          }
+        },
+        "s": null
+      },
+      {
         "id": 2971,
         "sfn": "mount-goop-bike",
         "ty": 6,
@@ -2721,55 +2917,6 @@
           "zh-CN": {
             "d": "滴着满满马力。\n\n上次可获取时间：2026年4月\n下次可获取时间：永不 ",
             "n": "黏液摩托"
-          }
-        },
-        "s": null
-      },
-      {
-        "id": 2993,
-        "sfn": "outfit-rugged-sword",
-        "ty": 6,
-        "st": 16,
-        "q": 0,
-        "lr": 0,
-        "sr": {},
-        "bt": 0,
-        "sta": {},
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 0,
-        "vsc": 0,
-        "vsp": 0,
-        "mmp": 15999999,
-        "mrsf": 32422,
-        "t": {
-          "en": {
-            "d": "That's a big sword.\n\nLast Available:May 2026\nNext Available: Never",
-            "n": "Rugged Sword"
-          },
-          "es": {
-            "d": "Eso sí que es una espada grande.\n\nÚltima disponibilidad: mayo de 2026\nPróxima disponibilidad: nunca",
-            "n": "Espada Robusta"
-          },
-          "ja": {
-            "d": "でかい剣だ。\n\n最終入手可能時期：2026年5月\n次回入手可能時期：なし",
-            "n": "ラギッドソード"
-          },
-          "ko": {
-            "d": "정말 큰 검이다.\n\n마지막 획득 가능: 2026년 5월\n다음 획득 가능: 없음",
-            "n": "투박한 검"
-          },
-          "vi": {
-            "d": "Đúng là một thanh kiếm lớn.\n\nLần cuối xuất hiện: Tháng 5 năm 2026\nLần tới xuất hiện: Không bao giờ",
-            "n": "Kiếm Rắn Chắc"
-          },
-          "pt-BR": {
-            "d": "Essa é uma espada grande.\n\nDisponível pela última vez: maio de 2026\nPróxima disponibilidade: nunca",
-            "n": "Espada Robusta"
-          },
-          "zh-CN": {
-            "d": "这剑可真大。\n\n上次可获取时间：2026年5月\n下次可获取时间：永不",
-            "n": "粗犷巨剑"
           }
         },
         "s": null
@@ -2871,93 +3018,6 @@
           }
         },
         "s": null
-      },
-      {
-        "id": 753,
-        "sfn": "trinket-base-agi-book",
-        "ty": 3,
-        "st": 1,
-        "q": 0,
-        "lr": 32,
-        "sr": {},
-        "bt": 0,
-        "sta": {
-          "agi": 8,
-          "arm": 1000,
-          "int": 1,
-          "set": 11,
-          "sta": 2,
-          "str": 1
-        },
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 20000,
-        "vsc": 0,
-        "vsp": 0,
-        "mmp": 80000,
-        "mrsf": 69999,
-        "t": {
-          "en": {
-            "d": "The pages have faint messages written on them.\n\nTier 1 Agility Book",
-            "n": "Dragon Book",
-            "sn": "Dragon"
-          },
-          "es": {
-            "d": "Las páginas contienen mensajes escritos tenuemente.\n\nLibro de Agilidad de nivel 1",
-            "n": "Libro del Dragón",
-            "sn": "Dragón"
-          },
-          "ja": {
-            "d": "ページにはかすかな言葉が書かれている。\n\n俊敏の書 ティア1",
-            "n": "ドラゴンの書",
-            "sn": "ドラゴン"
-          },
-          "ko": {
-            "d": "책장에 희미한 글귀가 적혀 있다.\n\n1티어 민첩의 책",
-            "n": "용의 책",
-            "sn": "용"
-          },
-          "vi": {
-            "d": "Trên các trang sách có những dòng chữ mờ nhạt.\n\nSách Nhanh Nhẹn Bậc 1",
-            "n": "Sách Rồng",
-            "sn": "Rồng"
-          },
-          "pt-BR": {
-            "d": "Há mensagens quase apagadas escritas nas páginas.\n\nLivro de Agilidade de nível 1",
-            "n": "Livro do Dragão",
-            "sn": "Dragão"
-          },
-          "zh-CN": {
-            "d": "书页上写着若隐若现的文字。\n\n1阶敏捷之书",
-            "n": "巨龙之书",
-            "sn": "巨龙"
-          }
-        },
-        "s": {
-          "sb": {
-            "6": {
-              "arm": 200
-            },
-            "7": {
-              "agi": 2,
-              "arm": 300,
-              "atkp": 5
-            },
-            "8": {
-              "agi": 4,
-              "arm": 450,
-              "atkp": 10,
-              "crit": 1
-            },
-            "9": {
-              "agi": 6,
-              "arm": 600,
-              "atkp": 20,
-              "crit": 1
-            }
-          },
-          "sid": 11
-        }
       },
       {
         "id": 762,
@@ -3138,6 +3198,55 @@
           },
           "sid": 12
         }
+      },
+      {
+        "id": 2971,
+        "sfn": "mount-goop-bike",
+        "ty": 6,
+        "st": 9,
+        "q": 0,
+        "lr": 0,
+        "sr": {},
+        "bt": 0,
+        "sta": {},
+        "ss": 0,
+        "vbc": 0,
+        "vbp": 0,
+        "vsc": 0,
+        "vsp": 0,
+        "mmp": 13000000,
+        "mrsf": 435345,
+        "t": {
+          "en": {
+            "d": "Dripping with horsepower.\n\nLast Available: April 2026\nNext Available: Never ",
+            "n": "Goop Bike"
+          },
+          "es": {
+            "d": "Chorreando caballos de potencia.\n\nÚltima disponibilidad: abril de 2026\nPróxima disponibilidad: nunca ",
+            "n": "Moto de Pringue"
+          },
+          "ja": {
+            "d": "馬力が滴り落ちている。\n\n最終入手可能時期：2026年4月\n次回入手可能時期：なし ",
+            "n": "ネバネババイク"
+          },
+          "ko": {
+            "d": "마력이 뚝뚝 흐른다.\n\n마지막 획득 가능: 2026년 4월\n다음 획득 가능: 없음 ",
+            "n": "끈적이 바이크"
+          },
+          "vi": {
+            "d": "Nhỏ giọt mã lực.\n\nLần cuối xuất hiện: Tháng 4 năm 2026\nLần tới xuất hiện: Không bao giờ ",
+            "n": "Xe Máy Nhầy"
+          },
+          "pt-BR": {
+            "d": "Pingando cavalos de potência.\n\nDisponível pela última vez: abril de 2026\nPróxima disponibilidade: nunca ",
+            "n": "Moto de Gosma"
+          },
+          "zh-CN": {
+            "d": "滴着满满马力。\n\n上次可获取时间：2026年4月\n下次可获取时间：永不 ",
+            "n": "黏液摩托"
+          }
+        },
+        "s": null
       },
       {
         "id": 2993,
@@ -3325,53 +3434,93 @@
         }
       },
       {
-        "id": 1245,
-        "sfn": "crafting-sea-cube-hyper",
-        "ty": 5,
-        "st": 0,
+        "id": 762,
+        "sfn": "ring-t1-agi",
+        "ty": 3,
+        "st": 12,
         "q": 0,
-        "lr": 0,
-        "sr": {},
+        "lr": 42,
+        "sr": {
+          "agi": 100
+        },
         "bt": 0,
-        "sta": {},
+        "sta": {
+          "agi": 16,
+          "arm": 200,
+          "set": 12
+        },
         "ss": 0,
         "vbc": 0,
-        "vbp": 500000,
+        "vbp": 25000,
         "vsc": 0,
-        "vsp": 500000,
-        "mmp": 14000000,
-        "mrsf": 9999999,
+        "vsp": 0,
+        "mmp": 300000,
+        "mrsf": 300000,
         "t": {
           "en": {
-            "d": "The cube radiates with power and is creating a sound as if the power of the ocean itself is roaring within.",
-            "n": "Hyper Cube of the Sea"
+            "d": "A ring that harnesses the might of a dragon.\n\nTier 2 Agility Ring",
+            "n": "Mighty Dragon Ring",
+            "sn": "Mighty Dragon"
           },
           "es": {
-            "d": "El cubo irradia poder y emite un sonido como si la fuerza del mismísimo océano rugiera en su interior.",
-            "n": "Hipercubo del Mar"
+            "d": "Un anillo que canaliza el poderío de un dragón.\n\nAnillo de Agilidad de nivel 2",
+            "n": "Anillo del Dragón Poderoso",
+            "sn": "Dragón Poderoso"
           },
           "ja": {
-            "d": "キューブは力を放ち、その内側で海そのものの力がうなっているかのような音を響かせる。",
-            "n": "海のハイパーキューブ"
+            "d": "ドラゴンの威力を宿す指輪。\n\n俊敏の指輪 ティア2",
+            "n": "マイティドラゴンの指輪",
+            "sn": "強大なドラゴン"
           },
           "ko": {
-            "d": "큐브는 힘을 내뿜으며 바다 자체의 힘이 안에서 포효하는 듯한 소리를 냅니다.",
-            "n": "바다의 하이퍼큐브"
+            "d": "용의 위력을 품은 반지.\n\n2티어 민첩 반지",
+            "n": "강력한 용 반지",
+            "sn": "강대한 용"
           },
           "vi": {
-            "d": "Khối lập phương tỏa ra sức mạnh và phát âm thanh như thể chính uy lực của đại dương đang gầm thét bên trong.",
-            "n": "Siêu Lập Phương Biển Cả"
+            "d": "Chiếc nhẫn hội tụ sức mạnh của một con rồng.\n\nNhẫn Nhanh Nhẹn Bậc 2",
+            "n": "Nhẫn Rồng Hùng Mạnh",
+            "sn": "Rồng Hùng Mạnh"
           },
           "pt-BR": {
-            "d": "O cubo irradia poder e produz um som como se a força do próprio oceano rugisse dentro dele.",
-            "n": "Hipercubo do Mar"
+            "d": "Um anel que canaliza o poderio de um dragão.\n\nAnel de Agilidade de nível 2",
+            "n": "Anel do Dragão Poderoso",
+            "sn": "Dragão Poderoso"
           },
           "zh-CN": {
-            "d": "立方体散发着力量，还传出声响，仿佛海洋本身正在其中咆哮。",
-            "n": "海洋超立方体"
+            "d": "一枚凝聚巨龙威能的戒指。\n\n2阶敏捷戒指",
+            "n": "强力巨龙之戒",
+            "sn": "威猛巨龙"
           }
         },
-        "s": null
+        "s": {
+          "sb": {
+            "6": {
+              "agi": 2,
+              "arm": 300,
+              "atkp": 5
+            },
+            "7": {
+              "agi": 4,
+              "arm": 450,
+              "atkp": 10,
+              "crit": 1
+            },
+            "8": {
+              "agi": 6,
+              "arm": 600,
+              "atkp": 20,
+              "crit": 1
+            },
+            "9": {
+              "agi": 10,
+              "arm": 900,
+              "atkp": 30,
+              "crit": 2
+            }
+          },
+          "sid": 12
+        }
       },
       {
         "id": 1775,
@@ -3729,55 +3878,6 @@
         "s": null
       },
       {
-        "id": 2700,
-        "sfn": "outfit-frost-queen-offhand-flail",
-        "ty": 6,
-        "st": 17,
-        "q": 0,
-        "lr": 0,
-        "sr": {},
-        "bt": 0,
-        "sta": {},
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 0,
-        "vsc": 0,
-        "vsp": 0,
-        "mmp": 1000000,
-        "mrsf": 380000,
-        "t": {
-          "en": {
-            "d": "Letting go wasn't enough.\r\nArtist: Alyssa\r\n\r\nObtained from Frost Queen Box.",
-            "n": "Frost Queen's Flail (Off-Hand)"
-          },
-          "es": {
-            "d": "Soltarlo no fue suficiente.\nArtista: Alyssa\n\nSe obtiene de la Caja de la Reina de Escarcha.",
-            "n": "Mangual de la Reina de Hielo (Secundario)"
-          },
-          "ja": {
-            "d": "手放すだけでは足りなかった。\nアーティスト: Alyssa\n\n霜の女王ボックスから入手できる。",
-            "n": "フロストクイーンのフレイル（オフハンド）"
-          },
-          "ko": {
-            "d": "놓아주는 것만으로는 부족했습니다.\n아티스트: Alyssa\n\n서리 여왕 상자에서 획득할 수 있습니다.",
-            "n": "서리 여왕 철퇴(보조무기)"
-          },
-          "vi": {
-            "d": "Buông bỏ thôi vẫn chưa đủ.\nHọa sĩ: Alyssa\n\nNhận được từ Hộp Nữ Hoàng Băng Giá.",
-            "n": "Chùy Xích Nữ Hoàng Băng (Tay Phụ)"
-          },
-          "pt-BR": {
-            "d": "Deixar para lá não foi suficiente.\nArtista: Alyssa\n\nObtido na Caixa da Rainha do Gelo.",
-            "n": "Mangual da Rainha do Gelo (Mão Secundária)"
-          },
-          "zh-CN": {
-            "d": "光是放手还远远不够。\n美术: Alyssa\n\n可从霜之女王宝箱获得。",
-            "n": "冰霜女王链枷（副手）"
-          }
-        },
-        "s": null
-      },
-      {
         "id": 2701,
         "sfn": "outfit-frost-queen-mainhand-flail",
         "ty": 6,
@@ -3890,8 +3990,8 @@
         "vbp": 10000,
         "vsc": 0,
         "vsp": 0,
-        "mmp": 600000,
-        "mrsf": 698000,
+        "mmp": 540000,
+        "mrsf": 550000,
         "t": {
           "en": {
             "d": "A large ruby glistening with enchanted power. Appears to be a powerful crafting material.\r\n\r\n",
@@ -3939,8 +4039,8 @@
         "vbp": 200000,
         "vsc": 0,
         "vsp": 0,
-        "mmp": 550000,
-        "mrsf": 520000,
+        "mmp": 600000,
+        "mrsf": 600000,
         "t": {
           "en": {
             "d": "An upgraded powerful gem of unknown origin.",
@@ -3974,10 +4074,10 @@
         "s": null
       },
       {
-        "id": 2568,
-        "sfn": "outfit-crowbar",
+        "id": 2700,
+        "sfn": "outfit-frost-queen-offhand-flail",
         "ty": 6,
-        "st": 16,
+        "st": 17,
         "q": 0,
         "lr": 0,
         "sr": {},
@@ -3985,39 +4085,39 @@
         "sta": {},
         "ss": 0,
         "vbc": 0,
-        "vbp": 100000,
+        "vbp": 0,
         "vsc": 0,
-        "vsp": 100000,
-        "mmp": null,
-        "mrsf": null,
+        "vsp": 0,
+        "mmp": 1000000,
+        "mrsf": 380000,
         "t": {
           "en": {
-            "d": "A Crowbar infused with the power of Candy Corn to create an outfit version.\n\nObtained in Ghoulish Graveyard.",
-            "n": "Crowbar Outfit"
+            "d": "Letting go wasn't enough.\r\nArtist: Alyssa\r\n\r\nObtained from Frost Queen Box.",
+            "n": "Frost Queen's Flail (Off-Hand)"
           },
           "es": {
-            "d": "El Maíz Dulce transmite su poder a una palanca para crear una versión de atuendo.\n\nSe obtiene en Cementerio Macabro.",
-            "n": "Palanca (Atuendo)"
+            "d": "Soltarlo no fue suficiente.\nArtista: Alyssa\n\nSe obtiene de la Caja de la Reina de Escarcha.",
+            "n": "Mangual de la Reina de Hielo (Secundario)"
           },
           "ja": {
-            "d": "キャンディコーンの力をバールに注ぎ、コスチューム版を作り出す。\n\n不気味な墓地で入手。",
-            "n": "バールコスチューム"
+            "d": "手放すだけでは足りなかった。\nアーティスト: Alyssa\n\n霜の女王ボックスから入手できる。",
+            "n": "フロストクイーンのフレイル（オフハンド）"
           },
           "ko": {
-            "d": "캔디 콘의 힘을 쇠지렛대에 주입해 의상 버전으로 만든다.\n\n으스스한 묘지에서 획득.",
-            "n": "쇠지렛대 의상"
+            "d": "놓아주는 것만으로는 부족했습니다.\n아티스트: Alyssa\n\n서리 여왕 상자에서 획득할 수 있습니다.",
+            "n": "서리 여왕 철퇴(보조무기)"
           },
           "vi": {
-            "d": "Kẹo Ngô truyền sức mạnh vào một chiếc xà beng để tạo ra phiên bản ngoại trang.\n\nNhận tại Nghĩa Địa Ma Quái.",
-            "n": "Xà Beng (Ngoại Trang)"
+            "d": "Buông bỏ thôi vẫn chưa đủ.\nHọa sĩ: Alyssa\n\nNhận được từ Hộp Nữ Hoàng Băng Giá.",
+            "n": "Chùy Xích Nữ Hoàng Băng (Tay Phụ)"
           },
           "pt-BR": {
-            "d": "O Milho Doce de Halloween transmite seu poder a um pé de cabra para criar uma versão de traje.\n\nObtido no Cemitério Macabro.",
-            "n": "Pé de Cabra (Traje)"
+            "d": "Deixar para lá não foi suficiente.\nArtista: Alyssa\n\nObtido na Caixa da Rainha do Gelo.",
+            "n": "Mangual da Rainha do Gelo (Mão Secundária)"
           },
           "zh-CN": {
-            "d": "玉米糖将力量注入撬棍，打造出外观版本。\n\n获取于阴森墓园。",
-            "n": "撬棍外观"
+            "d": "光是放手还远远不够。\n美术: Alyssa\n\n可从霜之女王宝箱获得。",
+            "n": "冰霜女王链枷（副手）"
           }
         },
         "s": null
@@ -4289,7 +4389,7 @@
         "vbp": 0,
         "vsc": 1,
         "vsp": 40,
-        "mmp": null,
+        "mmp": 3000000,
         "mrsf": 5000000,
         "t": {
           "en": {
@@ -4373,59 +4473,10 @@
         "s": null
       },
       {
-        "id": 1246,
-        "sfn": "crafting-antimatter",
-        "ty": 5,
-        "st": 0,
-        "q": 0,
-        "lr": 0,
-        "sr": {},
-        "bt": 0,
-        "sta": {},
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 750000,
-        "vsc": 0,
-        "vsp": 750000,
-        "mmp": 19000000,
-        "mrsf": 19000000,
-        "t": {
-          "en": {
-            "d": "An extremely unstable power created from the merging of souls.",
-            "n": "Antimatter"
-          },
-          "es": {
-            "d": "Un poder extremadamente inestable creado por la fusión de almas.",
-            "n": "Antimateria"
-          },
-          "ja": {
-            "d": "魂の融合から生まれた、極めて不安定な力。",
-            "n": "反物質"
-          },
-          "ko": {
-            "d": "영혼이 융합되어 만들어진 극도로 불안정한 힘.",
-            "n": "반물질"
-          },
-          "vi": {
-            "d": "Nguồn sức mạnh cực kỳ bất ổn sinh ra từ sự hợp nhất các linh hồn.",
-            "n": "Phản Vật Chất"
-          },
-          "pt-BR": {
-            "d": "Um poder extremamente instável criado pela fusão de almas.",
-            "n": "Antimatéria"
-          },
-          "zh-CN": {
-            "d": "由灵魂融合而成的极不稳定力量。",
-            "n": "反物质"
-          }
-        },
-        "s": null
-      },
-      {
-        "id": 2382,
-        "sfn": "outfit-dragon-wings",
+        "id": 1327,
+        "sfn": "outfit-infini-body",
         "ty": 6,
-        "st": 4,
+        "st": 1,
         "q": 0,
         "lr": 0,
         "sr": {},
@@ -4436,36 +4487,36 @@
         "vbp": 0,
         "vsc": 0,
         "vsp": 0,
-        "mmp": 29999999,
-        "mrsf": 30000000,
+        "mmp": null,
+        "mrsf": 400000,
         "t": {
           "en": {
-            "d": "Wing it.\n\nLast Available: October 2025\nNext Available: Never ",
-            "n": "Dragon Wings"
+            "d": "Power without end, limits not included.\n\nObtained from the Infini Box.",
+            "n": "Infini Body"
           },
           "es": {
-            "d": "Improvisa.\n\nÚltima disponibilidad: octubre de 2025\nPróxima disponibilidad: nunca",
-            "n": "Alas de Dragón"
+            "d": "Poder sin fin; límites no incluidos.\n\nSe obtiene de la Caja Infini.",
+            "n": "Armadura Infini"
           },
           "ja": {
-            "d": "翼に任せろ。\n\n最終入手機会：2025年10月\n次回入手機会：なし",
-            "n": "ドラゴンの翼"
+            "d": "終わりなき力。限界は付属しません。\n\nInfiniボックスから入手できる。",
+            "n": "インフィニの胴鎧"
           },
           "ko": {
-            "d": "날개에 맡겨라.\n\n마지막 등장: 2025년 10월\n다음 등장: 없음",
-            "n": "용의 날개"
+            "d": "끝없는 힘. 한계는 포함되지 않습니다.\n\nInfini 상자에서 획득할 수 있습니다.",
+            "n": "인피니 몸통갑옷"
           },
           "vi": {
-            "d": "Cứ tùy cơ ứng biến.\n\nLần cuối có mặt: Tháng 10 năm 2025\nLần tới có mặt: Không bao giờ",
-            "n": "Cánh Rồng"
+            "d": "Sức mạnh vô tận, không kèm giới hạn.\n\nNhận được từ Hộp Infini.",
+            "n": "Giáp Thân Infini"
           },
           "pt-BR": {
-            "d": "Vá no improviso.\n\nÚltima disponibilidade: outubro de 2025\nPróxima disponibilidade: nunca",
-            "n": "Asas de Dragão"
+            "d": "Poder sem fim; limites não incluídos.\n\nObtido na Caixa Infini.",
+            "n": "Armadura Infini"
           },
           "zh-CN": {
-            "d": "随机应翼。\n\n上次开放：2025年10月\n下次开放：永不",
-            "n": "巨龙之翼"
+            "d": "力量无穷，绝不设限。\n\n可从Infini宝箱获得。",
+            "n": "无限胸甲"
           }
         },
         "s": null
@@ -4522,6 +4573,55 @@
         "s": null
       },
       {
+        "id": 2568,
+        "sfn": "outfit-crowbar",
+        "ty": 6,
+        "st": 16,
+        "q": 0,
+        "lr": 0,
+        "sr": {},
+        "bt": 0,
+        "sta": {},
+        "ss": 0,
+        "vbc": 0,
+        "vbp": 100000,
+        "vsc": 0,
+        "vsp": 100000,
+        "mmp": null,
+        "mrsf": null,
+        "t": {
+          "en": {
+            "d": "A Crowbar infused with the power of Candy Corn to create an outfit version.\n\nObtained in Ghoulish Graveyard.",
+            "n": "Crowbar Outfit"
+          },
+          "es": {
+            "d": "El Maíz Dulce transmite su poder a una palanca para crear una versión de atuendo.\n\nSe obtiene en Cementerio Macabro.",
+            "n": "Palanca (Atuendo)"
+          },
+          "ja": {
+            "d": "キャンディコーンの力をバールに注ぎ、コスチューム版を作り出す。\n\n不気味な墓地で入手。",
+            "n": "バールコスチューム"
+          },
+          "ko": {
+            "d": "캔디 콘의 힘을 쇠지렛대에 주입해 의상 버전으로 만든다.\n\n으스스한 묘지에서 획득.",
+            "n": "쇠지렛대 의상"
+          },
+          "vi": {
+            "d": "Kẹo Ngô truyền sức mạnh vào một chiếc xà beng để tạo ra phiên bản ngoại trang.\n\nNhận tại Nghĩa Địa Ma Quái.",
+            "n": "Xà Beng (Ngoại Trang)"
+          },
+          "pt-BR": {
+            "d": "O Milho Doce de Halloween transmite seu poder a um pé de cabra para criar uma versão de traje.\n\nObtido no Cemitério Macabro.",
+            "n": "Pé de Cabra (Traje)"
+          },
+          "zh-CN": {
+            "d": "玉米糖将力量注入撬棍，打造出外观版本。\n\n获取于阴森墓园。",
+            "n": "撬棍外观"
+          }
+        },
+        "s": null
+      },
+      {
         "id": 2826,
         "sfn": "outfit-kingsguard-shield",
         "ty": 6,
@@ -4571,57 +4671,6 @@
         "s": null
       },
       {
-        "id": 3149,
-        "sfn": "outfit-attack-line-obsidian",
-        "ty": 6,
-        "st": 8,
-        "q": 0,
-        "lr": 0,
-        "sr": {},
-        "bt": 0,
-        "sta": {
-          "fl": 20
-        },
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 10000,
-        "vsc": 0,
-        "vsp": 10000,
-        "mmp": null,
-        "mrsf": null,
-        "t": {
-          "en": {
-            "d": "Battle enemies while showing off the colors of Obsidian!\n\nObtained from the Fire & Ice Battle Pass.",
-            "n": "Obsidian Fight Line"
-          },
-          "es": {
-            "d": "¡Combate contra enemigos mientras luces los colores de Obsidiana!\n\nObtenido del Pase de Batalla Fuego y Hielo.",
-            "n": "Línea de Combate de Obsidiana"
-          },
-          "ja": {
-            "d": "黒曜石の色を誇示しながら敵と戦おう！\n\n炎と氷のバトルパスから入手。",
-            "n": "オブシディアン戦闘ライン"
-          },
-          "ko": {
-            "d": "흑요석의 색을 뽐내며 적과 싸우세요!\n\n불과 얼음 배틀 패스에서 획득.",
-            "n": "흑요석 전투선"
-          },
-          "vi": {
-            "d": "Chiến đấu với kẻ địch trong khi khoe sắc màu của Hắc Diện Thạch!\n\nNhận được từ Thẻ Chiến Đấu Lửa & Băng.",
-            "n": "Vệt Chiến Đấu Hắc Diện Thạch"
-          },
-          "pt-BR": {
-            "d": "Enfrente inimigos exibindo as cores da Obsidiana!\n\nObtido no Passe de Batalha Fogo e Gelo.",
-            "n": "Linha de Combate de Obsidiana"
-          },
-          "zh-CN": {
-            "d": "一边与敌人战斗，一边展示黑曜石的色彩！\n\n从冰与火战斗通行证中获得。",
-            "n": "黑曜石战斗轨迹"
-          }
-        },
-        "s": null
-      },
-      {
         "id": 171,
         "sfn": "nude-head",
         "ty": 6,
@@ -4638,8 +4687,8 @@
         "vbp": 0,
         "vsc": 1,
         "vsp": 10,
-        "mmp": null,
-        "mrsf": 500,
+        "mmp": 80000,
+        "mrsf": 50000,
         "t": {
           "en": {
             "d": "Show off that dome.",
@@ -4736,8 +4785,8 @@
         "vbp": 0,
         "vsc": 1,
         "vsp": 10,
-        "mmp": null,
-        "mrsf": 500,
+        "mmp": 200000,
+        "mrsf": 80000,
         "t": {
           "en": {
             "d": "Oh, did you shave for me?",
@@ -4785,8 +4834,8 @@
         "vbp": 0,
         "vsc": 1,
         "vsp": 10,
-        "mmp": null,
-        "mrsf": 500,
+        "mmp": 27500,
+        "mrsf": 10000,
         "t": {
           "en": {
             "d": "Ohhh, so risque.",
@@ -4815,6 +4864,55 @@
           "zh-CN": {
             "d": "哦——好大胆。",
             "n": "裸肩"
+          }
+        },
+        "s": null
+      },
+      {
+        "id": 236,
+        "sfn": "cosmetic-santa-beard-23",
+        "ty": 6,
+        "st": 2,
+        "q": 0,
+        "lr": 0,
+        "sr": {},
+        "bt": 0,
+        "sta": {},
+        "ss": 0,
+        "vbc": 0,
+        "vbp": 0,
+        "vsc": 0,
+        "vsp": 0,
+        "mmp": 240000000,
+        "mrsf": 250000000,
+        "t": {
+          "en": {
+            "d": "Adds 100 to the hidden stat known as beardiness.\r\n\r\nLast Available: December 2023\r\nNext Available: Never",
+            "n": "White Beard"
+          },
+          "es": {
+            "d": "Añade 100 a la estadística oculta conocida como barbosidad.\n\nÚltima disponibilidad: diciembre de 2023\nPróxima disponibilidad: nunca",
+            "n": "Barba Blanca"
+          },
+          "ja": {
+            "d": "隠しステータス「ひげっぷり」が100上がる。\n\n前回の提供：2023年12月\n次回の提供：なし",
+            "n": "白ひげ"
+          },
+          "ko": {
+            "d": "숨겨진 능력치인 수염력을 100 올린다.\n\n마지막 판매: 2023년 12월\n다음 판매: 없음",
+            "n": "흰 수염"
+          },
+          "vi": {
+            "d": "Tăng 100 điểm cho chỉ số ẩn gọi là độ râu ria.\n\nLần cuối có mặt: tháng 12 năm 2023\nLần tới có mặt: không bao giờ",
+            "n": "Râu Trắng"
+          },
+          "pt-BR": {
+            "d": "Adiciona 100 ao atributo oculto conhecido como barbudice.\n\nÚltima disponibilidade: dezembro de 2023\nPróxima disponibilidade: nunca",
+            "n": "Barba Branca"
+          },
+          "zh-CN": {
+            "d": "为名为“胡须度”的隐藏属性增加100点。\n\n上次开放：2023年12月\n下次开放：永不",
+            "n": "白胡子"
           }
         },
         "s": null
@@ -4883,7 +4981,7 @@
         "vbp": 0,
         "vsc": 1,
         "vsp": 10,
-        "mmp": null,
+        "mmp": 50000,
         "mrsf": 30000,
         "t": {
           "en": {
@@ -4967,55 +5065,6 @@
         "s": null
       },
       {
-        "id": 1327,
-        "sfn": "outfit-infini-body",
-        "ty": 6,
-        "st": 1,
-        "q": 0,
-        "lr": 0,
-        "sr": {},
-        "bt": 0,
-        "sta": {},
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 0,
-        "vsc": 0,
-        "vsp": 0,
-        "mmp": null,
-        "mrsf": 400000,
-        "t": {
-          "en": {
-            "d": "Power without end, limits not included.\n\nObtained from the Infini Box.",
-            "n": "Infini Body"
-          },
-          "es": {
-            "d": "Poder sin fin; límites no incluidos.\n\nSe obtiene de la Caja Infini.",
-            "n": "Armadura Infini"
-          },
-          "ja": {
-            "d": "終わりなき力。限界は付属しません。\n\nInfiniボックスから入手できる。",
-            "n": "インフィニの胴鎧"
-          },
-          "ko": {
-            "d": "끝없는 힘. 한계는 포함되지 않습니다.\n\nInfini 상자에서 획득할 수 있습니다.",
-            "n": "인피니 몸통갑옷"
-          },
-          "vi": {
-            "d": "Sức mạnh vô tận, không kèm giới hạn.\n\nNhận được từ Hộp Infini.",
-            "n": "Giáp Thân Infini"
-          },
-          "pt-BR": {
-            "d": "Poder sem fim; limites não incluídos.\n\nObtido na Caixa Infini.",
-            "n": "Armadura Infini"
-          },
-          "zh-CN": {
-            "d": "力量无穷，绝不设限。\n\n可从Infini宝箱获得。",
-            "n": "无限胸甲"
-          }
-        },
-        "s": null
-      },
-      {
         "id": 1541,
         "sfn": "item-dark-soul-nebula",
         "ty": 5,
@@ -5065,99 +5114,52 @@
         "s": null
       },
       {
-        "id": 2826,
-        "sfn": "outfit-kingsguard-shield",
-        "ty": 6,
-        "st": 17,
+        "id": 2193,
+        "sfn": "mount-pirate-ship",
+        "ty": 3,
+        "st": 7,
         "q": 0,
         "lr": 0,
         "sr": {},
         "bt": 0,
-        "sta": {},
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 0,
-        "vsc": 0,
-        "vsp": 0,
-        "mmp": 13000000,
-        "mrsf": 12331,
-        "t": {
-          "en": {
-            "d": "Forged for those who stand when others kneel.\n\nLast Available: February 2026\nNext Available: Never ",
-            "n": "Kingsguard Shield"
-          },
-          "es": {
-            "d": "Forjado para quienes permanecen en pie cuando los demás se arrodillan.\n\nÚltima disponibilidad: febrero de 2026\nPróxima disponibilidad: Nunca",
-            "n": "Escudo de la Guardia Real"
-          },
-          "ja": {
-            "d": "皆がひざまずく時にも立ち続ける者のために鍛えられた。\n\n前回登場：2026年2月\n次回登場：なし",
-            "n": "キングスガードの盾"
-          },
-          "ko": {
-            "d": "모두가 무릎 꿇을 때도 굳건히 서는 자들을 위해 벼려졌다.\n\n마지막 판매: 2026년 2월\n다음 판매: 없음",
-            "n": "왕실 근위대 방패"
-          },
-          "vi": {
-            "d": "Được rèn cho những người vẫn đứng vững khi kẻ khác quỳ gối.\n\nLần cuối xuất hiện: Tháng 2 năm 2026\nLần tới xuất hiện: Không bao giờ",
-            "n": "Khiên Cận Vệ Hoàng Gia"
-          },
-          "pt-BR": {
-            "d": "Forjado para quem permanece de pé quando os outros se ajoelham.\n\nÚltima disponibilidade: fevereiro de 2026\nPróxima disponibilidade: Nunca",
-            "n": "Escudo da Guarda Real"
-          },
-          "zh-CN": {
-            "d": "为那些在众人屈膝时仍挺身而立的人锻造。\n\n上次开放：2026年2月\n下次开放：永不",
-            "n": "王卫之盾"
-          }
+        "sta": {
+          "spd": 35
         },
-        "s": null
-      },
-      {
-        "id": 236,
-        "sfn": "cosmetic-santa-beard-23",
-        "ty": 6,
-        "st": 2,
-        "q": 0,
-        "lr": 0,
-        "sr": {},
-        "bt": 0,
-        "sta": {},
         "ss": 0,
         "vbc": 0,
         "vbp": 0,
         "vsc": 0,
         "vsp": 0,
-        "mmp": 219000000,
-        "mrsf": 250000000,
+        "mmp": 45000000,
+        "mrsf": 44999999,
         "t": {
           "en": {
-            "d": "Adds 100 to the hidden stat known as beardiness.\r\n\r\nLast Available: December 2023\r\nNext Available: Never",
-            "n": "White Beard"
+            "d": "Ship happens. \n\nIncreases your speed by 35.\n\nObtained in Pirate Shores Dungeon.",
+            "n": "Pirate Ship"
           },
           "es": {
-            "d": "Añade 100 a la estadística oculta conocida como barbosidad.\n\nÚltima disponibilidad: diciembre de 2023\nPróxima disponibilidad: nunca",
-            "n": "Barba Blanca"
+            "d": "Cosas de barcos.\n\nAumenta tu velocidad en 35.\n\nSe obtiene en la Mazmorra de Costas Piratas.",
+            "n": "Barco Pirata"
           },
           "ja": {
-            "d": "隠しステータス「ひげっぷり」が100上がる。\n\n前回の提供：2023年12月\n次回の提供：なし",
-            "n": "白ひげ"
+            "d": "船ではいろいろある。\n\n速度が35上昇する。\n\n海賊海岸ダンジョンで入手できる。",
+            "n": "海賊船"
           },
           "ko": {
-            "d": "숨겨진 능력치인 수염력을 100 올린다.\n\n마지막 판매: 2023년 12월\n다음 판매: 없음",
-            "n": "흰 수염"
+            "d": "배 타다 보면 별일 다 있다.\n\n속도가 35 증가한다.\n\n해적 해안 던전에서 획득할 수 있다.",
+            "n": "해적선"
           },
           "vi": {
-            "d": "Tăng 100 điểm cho chỉ số ẩn gọi là độ râu ria.\n\nLần cuối có mặt: tháng 12 năm 2023\nLần tới có mặt: không bao giờ",
-            "n": "Râu Trắng"
+            "d": "Chuyện tàu bè vẫn cứ xảy ra.\n\nTăng tốc độ của bạn thêm 35.\n\nNhận được trong Hầm Ngục Bờ Biển Hải Tặc.",
+            "n": "Tàu Hải Tặc"
           },
           "pt-BR": {
-            "d": "Adiciona 100 ao atributo oculto conhecido como barbudice.\n\nÚltima disponibilidade: dezembro de 2023\nPróxima disponibilidade: nunca",
-            "n": "Barba Branca"
+            "d": "Navios acontecem.\n\nAumenta sua velocidade em 35.\n\nObtido na Masmorra das Costas Piratas.",
+            "n": "Navio Pirata"
           },
           "zh-CN": {
-            "d": "为名为“胡须度”的隐藏属性增加100点。\n\n上次开放：2023年12月\n下次开放：永不",
-            "n": "白胡子"
+            "d": "船到自然直。\n\n速度提高35。\n\n可在海盗海岸地下城获得。",
+            "n": "海盗船"
           }
         },
         "s": null
@@ -5310,57 +5312,6 @@
         "s": null
       },
       {
-        "id": 2193,
-        "sfn": "mount-pirate-ship",
-        "ty": 3,
-        "st": 7,
-        "q": 0,
-        "lr": 0,
-        "sr": {},
-        "bt": 0,
-        "sta": {
-          "spd": 35
-        },
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 0,
-        "vsc": 0,
-        "vsp": 0,
-        "mmp": 45000000,
-        "mrsf": 44999999,
-        "t": {
-          "en": {
-            "d": "Ship happens. \n\nIncreases your speed by 35.\n\nObtained in Pirate Shores Dungeon.",
-            "n": "Pirate Ship"
-          },
-          "es": {
-            "d": "Cosas de barcos.\n\nAumenta tu velocidad en 35.\n\nSe obtiene en la Mazmorra de Costas Piratas.",
-            "n": "Barco Pirata"
-          },
-          "ja": {
-            "d": "船ではいろいろある。\n\n速度が35上昇する。\n\n海賊海岸ダンジョンで入手できる。",
-            "n": "海賊船"
-          },
-          "ko": {
-            "d": "배 타다 보면 별일 다 있다.\n\n속도가 35 증가한다.\n\n해적 해안 던전에서 획득할 수 있다.",
-            "n": "해적선"
-          },
-          "vi": {
-            "d": "Chuyện tàu bè vẫn cứ xảy ra.\n\nTăng tốc độ của bạn thêm 35.\n\nNhận được trong Hầm Ngục Bờ Biển Hải Tặc.",
-            "n": "Tàu Hải Tặc"
-          },
-          "pt-BR": {
-            "d": "Navios acontecem.\n\nAumenta sua velocidade em 35.\n\nObtido na Masmorra das Costas Piratas.",
-            "n": "Navio Pirata"
-          },
-          "zh-CN": {
-            "d": "船到自然直。\n\n速度提高35。\n\n可在海盗海岸地下城获得。",
-            "n": "海盗船"
-          }
-        },
-        "s": null
-      },
-      {
         "id": 547,
         "sfn": "outfit-reaper-mask",
         "ty": 6,
@@ -5375,7 +5326,7 @@
         "vbp": 0,
         "vsc": 0,
         "vsp": 0,
-        "mmp": null,
+        "mmp": 850000,
         "mrsf": 850000,
         "t": {
           "en": {
@@ -5405,6 +5356,55 @@
           "zh-CN": {
             "d": "笼罩在黑暗中，令你恐惧到骨子里。\n美术：Skrylie\n\n从死神宝箱中获得。",
             "n": "死神面具"
+          }
+        },
+        "s": null
+      },
+      {
+        "id": 728,
+        "sfn": "outfit-gem-hat",
+        "ty": 6,
+        "st": 0,
+        "q": 0,
+        "lr": 0,
+        "sr": {},
+        "bt": 0,
+        "sta": {},
+        "ss": 0,
+        "vbc": 0,
+        "vbp": 0,
+        "vsc": 1,
+        "vsp": 40,
+        "mmp": 6984848,
+        "mrsf": 6969696,
+        "t": {
+          "en": {
+            "d": "Rock this boulder-sized bling and let everyone know you're the true crown jewel!\n\nLast Available: February 2025\nNext Available: 2027",
+            "n": "The Crown Gem"
+          },
+          "es": {
+            "d": "Luce esta joya del tamaño de una roca y deja claro que tú eres la auténtica joya de la corona.\n\nÚltima disponibilidad: febrero de 2025\nPróxima disponibilidad: 2027",
+            "n": "La Gema de la Corona"
+          },
+          "ja": {
+            "d": "岩ほど大きなこの宝石を身につけて、自分こそ真の王冠の宝石だと見せつけよう！\n\n前回入手可能：2025年2月\n次回入手可能：2027年",
+            "n": "王冠の宝石"
+          },
+          "ko": {
+            "d": "바위만 한 이 보석을 걸치고 진정한 왕관의 보석이 바로 당신임을 모두에게 알리세요!\n\n마지막 획득 가능: 2025년 2월\n다음 획득 가능: 2027년",
+            "n": "왕관 보석"
+          },
+          "vi": {
+            "d": "Hãy diện món trang sức to bằng tảng đá này để mọi người biết bạn mới là viên ngọc quý thực sự của vương miện!\n\nLần cuối có sẵn: Tháng 2 năm 2025\nLần tới có sẵn: 2027",
+            "n": "Ngọc Vương Miện"
+          },
+          "pt-BR": {
+            "d": "Use este brilho do tamanho de uma pedra e mostre a todos que você é a verdadeira joia da coroa!\n\nÚltima disponibilidade: fevereiro de 2025\nPróxima disponibilidade: 2027",
+            "n": "A Joia da Coroa"
+          },
+          "zh-CN": {
+            "d": "戴上这颗巨石般的闪亮宝石，让所有人知道你才是真正的王冠明珠！\n\n上次开放：2025年2月\n下次开放：2027年",
+            "n": "王冠宝石"
           }
         },
         "s": null
@@ -5606,6 +5606,55 @@
         "s": null
       },
       {
+        "id": 1632,
+        "sfn": "outfit-cybermech-helmet",
+        "ty": 6,
+        "st": 0,
+        "q": 0,
+        "lr": 0,
+        "sr": {},
+        "bt": 0,
+        "sta": {},
+        "ss": 0,
+        "vbc": 0,
+        "vbp": 0,
+        "vsc": 0,
+        "vsp": 0,
+        "mmp": 388889,
+        "mrsf": 300000,
+        "t": {
+          "en": {
+            "d": "Runs on vengeance and AA batteries.\nArtist: Moriarty\n\nObtained from the Cybermech Box.",
+            "n": "Cybermech Helmet"
+          },
+          "es": {
+            "d": "Funciona con venganza y pilas AA.\nArtista: Moriarty\n\nSe obtiene de la Caja del Cibermecano.",
+            "n": "Casco de Cibermecha"
+          },
+          "ja": {
+            "d": "動力源は復讐とAA電池。\nアーティスト: Moriarty\n\nサイバーメックボックスから入手できる。",
+            "n": "サイバーメックのヘルメット"
+          },
+          "ko": {
+            "d": "복수심과 AA 건전지로 작동합니다.\n아티스트: Moriarty\n\n사이버메크 상자에서 획득할 수 있습니다.",
+            "n": "사이버메크 헬멧"
+          },
+          "vi": {
+            "d": "Chạy bằng thù hận và pin AA.\nHọa sĩ: Moriarty\n\nNhận được từ Hộp Cơ Giáp Điện Tử.",
+            "n": "Mũ Cơ Giáp Mạng"
+          },
+          "pt-BR": {
+            "d": "Funciona com vingança e pilhas AA.\nArtista: Moriarty\n\nObtido na Caixa do Cibermecha.",
+            "n": "Capacete de Cibermecha"
+          },
+          "zh-CN": {
+            "d": "以复仇和AA电池为动力。\n美术: Moriarty\n\n可从赛博机甲宝箱获得。",
+            "n": "赛博机甲头盔"
+          }
+        },
+        "s": null
+      },
+      {
         "id": 35,
         "sfn": "angel-wings",
         "ty": 6,
@@ -5707,55 +5756,6 @@
           "zh-CN": {
             "d": "一份对公会的承诺，即使越过坟墓也永不消逝。",
             "n": "永恒誓约之戒"
-          }
-        },
-        "s": null
-      },
-      {
-        "id": 728,
-        "sfn": "outfit-gem-hat",
-        "ty": 6,
-        "st": 0,
-        "q": 0,
-        "lr": 0,
-        "sr": {},
-        "bt": 0,
-        "sta": {},
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 0,
-        "vsc": 1,
-        "vsp": 40,
-        "mmp": null,
-        "mrsf": 6969696,
-        "t": {
-          "en": {
-            "d": "Rock this boulder-sized bling and let everyone know you're the true crown jewel!\n\nLast Available: February 2025\nNext Available: 2027",
-            "n": "The Crown Gem"
-          },
-          "es": {
-            "d": "Luce esta joya del tamaño de una roca y deja claro que tú eres la auténtica joya de la corona.\n\nÚltima disponibilidad: febrero de 2025\nPróxima disponibilidad: 2027",
-            "n": "La Gema de la Corona"
-          },
-          "ja": {
-            "d": "岩ほど大きなこの宝石を身につけて、自分こそ真の王冠の宝石だと見せつけよう！\n\n前回入手可能：2025年2月\n次回入手可能：2027年",
-            "n": "王冠の宝石"
-          },
-          "ko": {
-            "d": "바위만 한 이 보석을 걸치고 진정한 왕관의 보석이 바로 당신임을 모두에게 알리세요!\n\n마지막 획득 가능: 2025년 2월\n다음 획득 가능: 2027년",
-            "n": "왕관 보석"
-          },
-          "vi": {
-            "d": "Hãy diện món trang sức to bằng tảng đá này để mọi người biết bạn mới là viên ngọc quý thực sự của vương miện!\n\nLần cuối có sẵn: Tháng 2 năm 2025\nLần tới có sẵn: 2027",
-            "n": "Ngọc Vương Miện"
-          },
-          "pt-BR": {
-            "d": "Use este brilho do tamanho de uma pedra e mostre a todos que você é a verdadeira joia da coroa!\n\nÚltima disponibilidade: fevereiro de 2025\nPróxima disponibilidade: 2027",
-            "n": "A Joia da Coroa"
-          },
-          "zh-CN": {
-            "d": "戴上这颗巨石般的闪亮宝石，让所有人知道你才是真正的王冠明珠！\n\n上次开放：2025年2月\n下次开放：2027年",
-            "n": "王冠宝石"
           }
         },
         "s": null
@@ -5908,55 +5908,6 @@
         "s": null
       },
       {
-        "id": 1632,
-        "sfn": "outfit-cybermech-helmet",
-        "ty": 6,
-        "st": 0,
-        "q": 0,
-        "lr": 0,
-        "sr": {},
-        "bt": 0,
-        "sta": {},
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 0,
-        "vsc": 0,
-        "vsp": 0,
-        "mmp": 388889,
-        "mrsf": 300000,
-        "t": {
-          "en": {
-            "d": "Runs on vengeance and AA batteries.\nArtist: Moriarty\n\nObtained from the Cybermech Box.",
-            "n": "Cybermech Helmet"
-          },
-          "es": {
-            "d": "Funciona con venganza y pilas AA.\nArtista: Moriarty\n\nSe obtiene de la Caja del Cibermecano.",
-            "n": "Casco de Cibermecha"
-          },
-          "ja": {
-            "d": "動力源は復讐とAA電池。\nアーティスト: Moriarty\n\nサイバーメックボックスから入手できる。",
-            "n": "サイバーメックのヘルメット"
-          },
-          "ko": {
-            "d": "복수심과 AA 건전지로 작동합니다.\n아티스트: Moriarty\n\n사이버메크 상자에서 획득할 수 있습니다.",
-            "n": "사이버메크 헬멧"
-          },
-          "vi": {
-            "d": "Chạy bằng thù hận và pin AA.\nHọa sĩ: Moriarty\n\nNhận được từ Hộp Cơ Giáp Điện Tử.",
-            "n": "Mũ Cơ Giáp Mạng"
-          },
-          "pt-BR": {
-            "d": "Funciona com vingança e pilhas AA.\nArtista: Moriarty\n\nObtido na Caixa do Cibermecha.",
-            "n": "Capacete de Cibermecha"
-          },
-          "zh-CN": {
-            "d": "以复仇和AA电池为动力。\n美术: Moriarty\n\n可从赛博机甲宝箱获得。",
-            "n": "赛博机甲头盔"
-          }
-        },
-        "s": null
-      },
-      {
         "id": 1727,
         "sfn": "outfit-centaur-legs",
         "ty": 6,
@@ -6056,6 +6007,104 @@
           "zh-CN": {
             "d": "走出认真的气势……或者至少装得像那么回事。\n\n可在海盗海岸获得。",
             "n": "海军军官裤"
+          }
+        },
+        "s": null
+      },
+      {
+        "id": 2458,
+        "sfn": "item-nugget-gamer",
+        "ty": 5,
+        "st": 0,
+        "q": 0,
+        "lr": 0,
+        "sr": {},
+        "bt": 0,
+        "sta": {},
+        "ss": 0,
+        "vbc": 0,
+        "vbp": 25000,
+        "vsc": 0,
+        "vsp": 25000,
+        "mmp": 700000,
+        "mrsf": 600000,
+        "t": {
+          "en": {
+            "d": "He who controls the nuggets, controls the game.",
+            "n": "Gamer Nugget"
+          },
+          "es": {
+            "d": "Quien controla las pepitas controla el juego.",
+            "n": "Pepita de Gamer"
+          },
+          "ja": {
+            "d": "ナゲットを制する者がゲームを制する。",
+            "n": "Gamerのナゲット"
+          },
+          "ko": {
+            "d": "너겟을 지배하는 자가 게임을 지배한다.",
+            "n": "Gamer의 너겟"
+          },
+          "vi": {
+            "d": "Ai kiểm soát nugget, người đó kiểm soát trò chơi.",
+            "n": "Nugget của Gamer"
+          },
+          "pt-BR": {
+            "d": "Quem controla os nuggets controla o jogo.",
+            "n": "Nugget do Gamer"
+          },
+          "zh-CN": {
+            "d": "掌控鸡块者，掌控游戏。",
+            "n": "Gamer鸡块"
+          }
+        },
+        "s": null
+      },
+      {
+        "id": 2459,
+        "sfn": "item-nugget-dino",
+        "ty": 5,
+        "st": 0,
+        "q": 0,
+        "lr": 0,
+        "sr": {},
+        "bt": 0,
+        "sta": {},
+        "ss": 0,
+        "vbc": 0,
+        "vbp": 25000,
+        "vsc": 0,
+        "vsp": 25000,
+        "mmp": 700000,
+        "mrsf": 600000,
+        "t": {
+          "en": {
+            "d": "Extinct, but still delicious.",
+            "n": "Dino Nugget"
+          },
+          "es": {
+            "d": "Extinto, pero aún delicioso.",
+            "n": "Nugget de Dinosaurio"
+          },
+          "ja": {
+            "d": "絶滅しても、まだおいしい。",
+            "n": "恐竜ナゲット"
+          },
+          "ko": {
+            "d": "멸종했지만 여전히 맛있다.",
+            "n": "공룡 너겟"
+          },
+          "vi": {
+            "d": "Tuyệt chủng nhưng vẫn ngon.",
+            "n": "Gà Viên Khủng Long"
+          },
+          "pt-BR": {
+            "d": "Extinto, mas ainda delicioso.",
+            "n": "Nugget de Dinossauro"
+          },
+          "zh-CN": {
+            "d": "已经灭绝，依然美味。",
+            "n": "恐龙鸡块"
           }
         },
         "s": null
@@ -6164,6 +6213,105 @@
           }
         },
         "s": null
+      },
+      {
+        "id": 1346,
+        "sfn": "weapon-t4-str",
+        "ty": 2,
+        "st": 9,
+        "q": 0,
+        "lr": 62,
+        "sr": {
+          "str": 440
+        },
+        "bt": 0,
+        "sta": {
+          "agi": 16,
+          "arm": 2000,
+          "int": 16,
+          "mnd": 525,
+          "mxd": 700,
+          "set": 9,
+          "sta": 22,
+          "str": 48,
+          "atkp": 30,
+          "atkr": 50,
+          "atks": 2600
+        },
+        "ss": 0,
+        "vbc": 0,
+        "vbp": 0,
+        "vsc": 0,
+        "vsp": 0,
+        "mmp": 3650000,
+        "mrsf": 3500000,
+        "t": {
+          "en": {
+            "d": "When divinity and destruction become one.\n\nTier 4 Strength Weapon",
+            "n": "The Holy Destroyer",
+            "sn": "Crucified Knight"
+          },
+          "es": {
+            "d": "Cuando la divinidad y la destrucción se vuelven una.\n\nArma de Fuerza de nivel 4",
+            "n": "El Destructor Sagrado",
+            "sn": "Caballero Crucificado"
+          },
+          "ja": {
+            "d": "神性と破壊が一つになるとき。\n\n力武器 ティア4",
+            "n": "聖なる破壊者",
+            "sn": "磔刑の騎士"
+          },
+          "ko": {
+            "d": "신성과 파괴가 하나가 될 때.\n\n4티어 힘 무기",
+            "n": "성스러운 파괴자",
+            "sn": "십자가형 기사"
+          },
+          "vi": {
+            "d": "Khi thần tính và hủy diệt hòa làm một.\n\nVũ Khí Sức Mạnh Bậc 4",
+            "n": "Kẻ Hủy Diệt Thần Thánh",
+            "sn": "Hiệp Sĩ Khổ Hình"
+          },
+          "pt-BR": {
+            "d": "Quando divindade e destruição se tornam uma só.\n\nArma de Força de nível 4",
+            "n": "O Destruidor Sagrado",
+            "sn": "Cavaleiro Crucificado"
+          },
+          "zh-CN": {
+            "d": "当神圣与毁灭合而为一。\n\n4阶力量武器",
+            "n": "神圣毁灭者",
+            "sn": "受难骑士"
+          }
+        },
+        "s": {
+          "sb": {
+            "6": {
+              "arm": 1000,
+              "str": 10,
+              "atkp": 85
+            },
+            "7": {
+              "arm": 1500,
+              "str": 16,
+              "atkp": 120
+            },
+            "8": {
+              "arm": 2000,
+              "str": 22,
+              "atkp": 175
+            },
+            "9": {
+              "arm": 2500,
+              "str": 28,
+              "atkp": 225
+            },
+            "10": {
+              "arm": 3250,
+              "str": 36,
+              "atkp": 315
+            }
+          },
+          "sid": 9
+        }
       },
       {
         "id": 1816,
@@ -6407,99 +6555,53 @@
         "s": null
       },
       {
-        "id": 2458,
-        "sfn": "item-nugget-gamer",
-        "ty": 5,
-        "st": 0,
+        "id": 3165,
+        "sfn": "fishing-tackle-crankbait",
+        "ty": 8,
+        "st": 2,
         "q": 0,
         "lr": 0,
         "sr": {},
         "bt": 0,
-        "sta": {},
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 25000,
-        "vsc": 0,
-        "vsp": 25000,
-        "mmp": 700000,
-        "mrsf": 600000,
-        "t": {
-          "en": {
-            "d": "He who controls the nuggets, controls the game.",
-            "n": "Gamer Nugget"
-          },
-          "es": {
-            "d": "Quien controla las pepitas controla el juego.",
-            "n": "Pepita de Gamer"
-          },
-          "ja": {
-            "d": "ナゲットを制する者がゲームを制する。",
-            "n": "Gamerのナゲット"
-          },
-          "ko": {
-            "d": "너겟을 지배하는 자가 게임을 지배한다.",
-            "n": "Gamer의 너겟"
-          },
-          "vi": {
-            "d": "Ai kiểm soát nugget, người đó kiểm soát trò chơi.",
-            "n": "Nugget của Gamer"
-          },
-          "pt-BR": {
-            "d": "Quem controla os nuggets controla o jogo.",
-            "n": "Nugget do Gamer"
-          },
-          "zh-CN": {
-            "d": "掌控鸡块者，掌控游戏。",
-            "n": "Gamer鸡块"
-          }
+        "sta": {
+          "fp": 15,
+          "ls": 10
         },
-        "s": null
-      },
-      {
-        "id": 2459,
-        "sfn": "item-nugget-dino",
-        "ty": 5,
-        "st": 0,
-        "q": 0,
-        "lr": 0,
-        "sr": {},
-        "bt": 0,
-        "sta": {},
         "ss": 0,
         "vbc": 0,
-        "vbp": 25000,
+        "vbp": 0,
         "vsc": 0,
-        "vsp": 25000,
-        "mmp": 700000,
-        "mrsf": 600000,
+        "vsp": 0,
+        "mmp": null,
+        "mrsf": null,
         "t": {
           "en": {
-            "d": "Extinct, but still delicious.",
-            "n": "Dino Nugget"
+            "d": "Guaranteed to fool at least one fish. Use this to catch fish!",
+            "n": "Crankbait"
           },
           "es": {
-            "d": "Extinto, pero aún delicioso.",
-            "n": "Nugget de Dinosaurio"
+            "d": "Garantizado para engañar al menos a un pez. ¡Úsalo para pescar!",
+            "n": "Señuelo Crankbait"
           },
           "ja": {
-            "d": "絶滅しても、まだおいしい。",
-            "n": "恐竜ナゲット"
+            "d": "少なくとも1匹の魚は確実にだませる。これで魚を釣ろう！",
+            "n": "クランクベイト"
           },
           "ko": {
-            "d": "멸종했지만 여전히 맛있다.",
-            "n": "공룡 너겟"
+            "d": "적어도 물고기 한 마리는 확실히 속일 수 있다. 이걸로 물고기를 잡아 보자!",
+            "n": "크랭크베이트"
           },
           "vi": {
-            "d": "Tuyệt chủng nhưng vẫn ngon.",
-            "n": "Gà Viên Khủng Long"
+            "d": "Đảm bảo đánh lừa được ít nhất một con cá. Dùng nó để câu cá!",
+            "n": "Mồi Giả Crankbait"
           },
           "pt-BR": {
-            "d": "Extinto, mas ainda delicioso.",
-            "n": "Nugget de Dinossauro"
+            "d": "Garantia de enganar pelo menos um peixe. Use-o para pescar!",
+            "n": "Isca Crankbait"
           },
           "zh-CN": {
-            "d": "已经灭绝，依然美味。",
-            "n": "恐龙鸡块"
+            "d": "保证至少能骗到一条鱼。用它来钓鱼吧！",
+            "n": "曲柄拟饵"
           }
         },
         "s": null
@@ -6655,102 +6757,205 @@
         }
       },
       {
-        "id": 1346,
-        "sfn": "weapon-t4-str",
-        "ty": 2,
-        "st": 9,
+        "id": 1099,
+        "sfn": "armor-t3-agi-shoulder",
+        "ty": 3,
+        "st": 6,
         "q": 0,
-        "lr": 62,
+        "lr": 54,
         "sr": {
-          "str": 440
+          "agi": 300
         },
         "bt": 0,
         "sta": {
-          "agi": 16,
-          "arm": 2000,
-          "int": 16,
-          "mnd": 525,
-          "mxd": 700,
-          "set": 9,
-          "sta": 22,
-          "str": 48,
-          "atkp": 30,
-          "atkr": 50,
-          "atks": 2600
+          "agi": 10,
+          "arm": 200,
+          "int": 6,
+          "set": 13,
+          "sta": 6,
+          "str": 6
         },
         "ss": 0,
         "vbc": 0,
-        "vbp": 0,
+        "vbp": 150000,
         "vsc": 0,
         "vsp": 0,
-        "mmp": 3650000,
-        "mrsf": 3500000,
+        "mmp": 1515151,
+        "mrsf": 600000,
         "t": {
           "en": {
-            "d": "When divinity and destruction become one.\n\nTier 4 Strength Weapon",
-            "n": "The Holy Destroyer",
-            "sn": "Crucified Knight"
+            "d": "Born of scales and flame.\r\n\r\nTier 3 Agility",
+            "n": "Ancient Dragon Pauldrons",
+            "sn": "Ancient Dragon"
           },
           "es": {
-            "d": "Cuando la divinidad y la destrucción se vuelven una.\n\nArma de Fuerza de nivel 4",
-            "n": "El Destructor Sagrado",
-            "sn": "Caballero Crucificado"
+            "d": "Nacido de escamas y llamas.\n\nAgilidad de nivel 3",
+            "n": "Hombreras de Dragón Antiguo",
+            "sn": "Dragón Antiguo"
           },
           "ja": {
-            "d": "神性と破壊が一つになるとき。\n\n力武器 ティア4",
-            "n": "聖なる破壊者",
-            "sn": "磔刑の騎士"
+            "d": "鱗と炎から生まれた。\n\n俊敏 ティア3",
+            "n": "古代のドラゴンの肩甲",
+            "sn": "古代のドラゴン"
           },
           "ko": {
-            "d": "신성과 파괴가 하나가 될 때.\n\n4티어 힘 무기",
-            "n": "성스러운 파괴자",
-            "sn": "십자가형 기사"
+            "d": "비늘과 불꽃에서 태어났다.\n\n3티어 민첩",
+            "n": "고대 용 견갑",
+            "sn": "고대 용"
           },
           "vi": {
-            "d": "Khi thần tính và hủy diệt hòa làm một.\n\nVũ Khí Sức Mạnh Bậc 4",
-            "n": "Kẻ Hủy Diệt Thần Thánh",
-            "sn": "Hiệp Sĩ Khổ Hình"
+            "d": "Sinh ra từ vảy và lửa.\n\nNhanh Nhẹn Bậc 3",
+            "n": "Giáp Vai Rồng Cổ Đại",
+            "sn": "Rồng Cổ Đại"
           },
           "pt-BR": {
-            "d": "Quando divindade e destruição se tornam uma só.\n\nArma de Força de nível 4",
-            "n": "O Destruidor Sagrado",
-            "sn": "Cavaleiro Crucificado"
+            "d": "Nascido de escamas e chamas.\n\nAgilidade de nível 3",
+            "n": "Ombreiras de Dragão Antigo",
+            "sn": "Dragão Antigo"
           },
           "zh-CN": {
-            "d": "当神圣与毁灭合而为一。\n\n4阶力量武器",
-            "n": "神圣毁灭者",
-            "sn": "受难骑士"
+            "d": "诞生于鳞片与烈焰。\n\n3阶敏捷",
+            "n": "远古巨龙肩甲",
+            "sn": "远古巨龙"
           }
         },
         "s": {
           "sb": {
             "6": {
-              "arm": 1000,
-              "str": 10,
-              "atkp": 85
+              "agi": 4,
+              "arm": 450,
+              "atkp": 10,
+              "crit": 1
             },
             "7": {
-              "arm": 1500,
-              "str": 16,
-              "atkp": 120
+              "agi": 6,
+              "arm": 600,
+              "atkp": 20,
+              "crit": 1
             },
             "8": {
-              "arm": 2000,
-              "str": 22,
-              "atkp": 175
+              "agi": 10,
+              "arm": 900,
+              "atkp": 30,
+              "crit": 2
             },
             "9": {
-              "arm": 2500,
-              "str": 28,
-              "atkp": 225
+              "agi": 16,
+              "arm": 1250,
+              "atkp": 45,
+              "crit": 2
             },
             "10": {
-              "arm": 3250,
-              "str": 36,
-              "atkp": 315
+              "agi": 24,
+              "arm": 1600,
+              "atkp": 60,
+              "crit": 4
             }
           },
-          "sid": 9
+          "sid": 13
+        }
+      },
+      {
+        "id": 1104,
+        "sfn": "weapon-t3-agi-bow",
+        "ty": 2,
+        "st": 2,
+        "q": 0,
+        "lr": 52,
+        "sr": {
+          "agi": 340
+        },
+        "bt": 0,
+        "sta": {
+          "agi": 36,
+          "arm": 600,
+          "int": 10,
+          "mnd": 285,
+          "mxd": 325,
+          "set": 13,
+          "sta": 14,
+          "str": 10,
+          "atkr": 120,
+          "atks": 2400
+        },
+        "ss": 0,
+        "vbc": 0,
+        "vbp": 150000,
+        "vsc": 0,
+        "vsp": 0,
+        "mmp": 1616161,
+        "mrsf": 1999999,
+        "t": {
+          "en": {
+            "d": "Eternal flames guide its aim.\r\n\r\nTier 3 Agility Weapon",
+            "n": "Elder Dragon Bow",
+            "sn": "Ancient Dragon"
+          },
+          "es": {
+            "d": "Las llamas eternas guían su puntería.\n\nArma de agilidad de nivel 3",
+            "n": "Arco del Dragón Anciano",
+            "sn": "Dragón Antiguo"
+          },
+          "ja": {
+            "d": "永遠の炎が狙いを導く。\n\n素早さ武器 ティア3",
+            "n": "エルダードラゴンの弓",
+            "sn": "古代のドラゴン"
+          },
+          "ko": {
+            "d": "영원한 불꽃이 조준을 이끈다.\n\n3티어 민첩 무기",
+            "n": "고룡 활",
+            "sn": "고대 용"
+          },
+          "vi": {
+            "d": "Ngọn lửa vĩnh cửu dẫn đường ngắm bắn.\n\nVũ Khí Nhanh Nhẹn Bậc 3",
+            "n": "Cung Rồng Trưởng Lão",
+            "sn": "Rồng Cổ Đại"
+          },
+          "pt-BR": {
+            "d": "Chamas eternas guiam sua mira.\n\nArma de Agilidade de nível 3",
+            "n": "Arco do Dragão Ancião",
+            "sn": "Dragão Antigo"
+          },
+          "zh-CN": {
+            "d": "永恒烈焰指引它的准星。\n\n3阶敏捷武器",
+            "n": "古龙弓",
+            "sn": "远古巨龙"
+          }
+        },
+        "s": {
+          "sb": {
+            "6": {
+              "agi": 4,
+              "arm": 450,
+              "atkp": 10,
+              "crit": 1
+            },
+            "7": {
+              "agi": 6,
+              "arm": 600,
+              "atkp": 20,
+              "crit": 1
+            },
+            "8": {
+              "agi": 10,
+              "arm": 900,
+              "atkp": 30,
+              "crit": 2
+            },
+            "9": {
+              "agi": 16,
+              "arm": 1250,
+              "atkp": 45,
+              "crit": 2
+            },
+            "10": {
+              "agi": 24,
+              "arm": 1600,
+              "atkp": 60,
+              "crit": 4
+            }
+          },
+          "sid": 13
         }
       },
       {
@@ -7221,53 +7426,50 @@
         }
       },
       {
-        "id": 3165,
-        "sfn": "fishing-tackle-crankbait",
-        "ty": 8,
-        "st": 2,
+        "id": 154,
+        "sfn": "toobin-croc",
+        "ty": 6,
+        "st": 1,
         "q": 0,
         "lr": 0,
-        "sr": {},
+        "sr": [],
         "bt": 0,
-        "sta": {
-          "fp": 15,
-          "ls": 10
-        },
+        "sta": [],
         "ss": 0,
         "vbc": 0,
         "vbp": 0,
-        "vsc": 0,
-        "vsp": 0,
-        "mmp": null,
-        "mrsf": null,
+        "vsc": 1,
+        "vsp": 10,
+        "mmp": 395000000,
+        "mrsf": 300000000,
         "t": {
           "en": {
-            "d": "Guaranteed to fool at least one fish. Use this to catch fish!",
-            "n": "Crankbait"
+            "d": "For snappy dressers.\n\nLast Available: August 2023\nNext Available: Never\n\nConcept art by Perseus.",
+            "n": "Gator Toobin'"
           },
           "es": {
-            "d": "Garantizado para engañar al menos a un pez. ¡Úsalo para pescar!",
-            "n": "Señuelo Crankbait"
+            "d": "Para quienes visten con mordiente.\n\nÚltima disponibilidad: agosto de 2023\nPróxima disponibilidad: Nunca\n\nArte conceptual de Perseus.",
+            "n": "Tubing de Caimán"
           },
           "ja": {
-            "d": "少なくとも1匹の魚は確実にだませる。これで魚を釣ろう！",
-            "n": "クランクベイト"
+            "d": "キレのある着こなしをする人に。\n\n前回登場：2023年8月\n次回登場：なし\n\nコンセプトアート：Perseus。",
+            "n": "ゲーター・チュービン"
           },
           "ko": {
-            "d": "적어도 물고기 한 마리는 확실히 속일 수 있다. 이걸로 물고기를 잡아 보자!",
-            "n": "크랭크베이트"
+            "d": "옷을 물어뜯을 듯 멋지게 입는 이들을 위해.\n\n마지막 판매: 2023년 8월\n다음 판매: 없음\n\n콘셉트 아트: Perseus.",
+            "n": "악어 튜빙"
           },
           "vi": {
-            "d": "Đảm bảo đánh lừa được ít nhất một con cá. Dùng nó để câu cá!",
-            "n": "Mồi Giả Crankbait"
+            "d": "Dành cho người ăn mặc thật cá sấu sảo.\n\nLần cuối xuất hiện: Tháng 8 năm 2023\nLần tới xuất hiện: Không bao giờ\n\nÝ tưởng mỹ thuật: Perseus.",
+            "n": "Cá Sấu Lướt Phao"
           },
           "pt-BR": {
-            "d": "Garantia de enganar pelo menos um peixe. Use-o para pescar!",
-            "n": "Isca Crankbait"
+            "d": "Para quem se veste com uma mordida de estilo.\n\nÚltima disponibilidade: agosto de 2023\nPróxima disponibilidade: Nunca\n\nArte conceitual de Perseus.",
+            "n": "Boia de Jacaré"
           },
           "zh-CN": {
-            "d": "保证至少能骗到一条鱼。用它来钓鱼吧！",
-            "n": "曲柄拟饵"
+            "d": "献给穿衣风格利落又带点咬劲的人。\n\n上次开放：2023年8月\n下次开放：永不\n\n概念美术：Perseus。",
+            "n": "鳄鱼漂流"
           }
         },
         "s": null
@@ -7711,208 +7913,6 @@
         }
       },
       {
-        "id": 1099,
-        "sfn": "armor-t3-agi-shoulder",
-        "ty": 3,
-        "st": 6,
-        "q": 0,
-        "lr": 54,
-        "sr": {
-          "agi": 300
-        },
-        "bt": 0,
-        "sta": {
-          "agi": 10,
-          "arm": 200,
-          "int": 6,
-          "set": 13,
-          "sta": 6,
-          "str": 6
-        },
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 150000,
-        "vsc": 0,
-        "vsp": 0,
-        "mmp": 1515151,
-        "mrsf": 600000,
-        "t": {
-          "en": {
-            "d": "Born of scales and flame.\r\n\r\nTier 3 Agility",
-            "n": "Ancient Dragon Pauldrons",
-            "sn": "Ancient Dragon"
-          },
-          "es": {
-            "d": "Nacido de escamas y llamas.\n\nAgilidad de nivel 3",
-            "n": "Hombreras de Dragón Antiguo",
-            "sn": "Dragón Antiguo"
-          },
-          "ja": {
-            "d": "鱗と炎から生まれた。\n\n俊敏 ティア3",
-            "n": "古代のドラゴンの肩甲",
-            "sn": "古代のドラゴン"
-          },
-          "ko": {
-            "d": "비늘과 불꽃에서 태어났다.\n\n3티어 민첩",
-            "n": "고대 용 견갑",
-            "sn": "고대 용"
-          },
-          "vi": {
-            "d": "Sinh ra từ vảy và lửa.\n\nNhanh Nhẹn Bậc 3",
-            "n": "Giáp Vai Rồng Cổ Đại",
-            "sn": "Rồng Cổ Đại"
-          },
-          "pt-BR": {
-            "d": "Nascido de escamas e chamas.\n\nAgilidade de nível 3",
-            "n": "Ombreiras de Dragão Antigo",
-            "sn": "Dragão Antigo"
-          },
-          "zh-CN": {
-            "d": "诞生于鳞片与烈焰。\n\n3阶敏捷",
-            "n": "远古巨龙肩甲",
-            "sn": "远古巨龙"
-          }
-        },
-        "s": {
-          "sb": {
-            "6": {
-              "agi": 4,
-              "arm": 450,
-              "atkp": 10,
-              "crit": 1
-            },
-            "7": {
-              "agi": 6,
-              "arm": 600,
-              "atkp": 20,
-              "crit": 1
-            },
-            "8": {
-              "agi": 10,
-              "arm": 900,
-              "atkp": 30,
-              "crit": 2
-            },
-            "9": {
-              "agi": 16,
-              "arm": 1250,
-              "atkp": 45,
-              "crit": 2
-            },
-            "10": {
-              "agi": 24,
-              "arm": 1600,
-              "atkp": 60,
-              "crit": 4
-            }
-          },
-          "sid": 13
-        }
-      },
-      {
-        "id": 1104,
-        "sfn": "weapon-t3-agi-bow",
-        "ty": 2,
-        "st": 2,
-        "q": 0,
-        "lr": 52,
-        "sr": {
-          "agi": 340
-        },
-        "bt": 0,
-        "sta": {
-          "agi": 36,
-          "arm": 600,
-          "int": 10,
-          "mnd": 285,
-          "mxd": 325,
-          "set": 13,
-          "sta": 14,
-          "str": 10,
-          "atkr": 120,
-          "atks": 2400
-        },
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 150000,
-        "vsc": 0,
-        "vsp": 0,
-        "mmp": 1616161,
-        "mrsf": 1999999,
-        "t": {
-          "en": {
-            "d": "Eternal flames guide its aim.\r\n\r\nTier 3 Agility Weapon",
-            "n": "Elder Dragon Bow",
-            "sn": "Ancient Dragon"
-          },
-          "es": {
-            "d": "Las llamas eternas guían su puntería.\n\nArma de agilidad de nivel 3",
-            "n": "Arco del Dragón Anciano",
-            "sn": "Dragón Antiguo"
-          },
-          "ja": {
-            "d": "永遠の炎が狙いを導く。\n\n素早さ武器 ティア3",
-            "n": "エルダードラゴンの弓",
-            "sn": "古代のドラゴン"
-          },
-          "ko": {
-            "d": "영원한 불꽃이 조준을 이끈다.\n\n3티어 민첩 무기",
-            "n": "고룡 활",
-            "sn": "고대 용"
-          },
-          "vi": {
-            "d": "Ngọn lửa vĩnh cửu dẫn đường ngắm bắn.\n\nVũ Khí Nhanh Nhẹn Bậc 3",
-            "n": "Cung Rồng Trưởng Lão",
-            "sn": "Rồng Cổ Đại"
-          },
-          "pt-BR": {
-            "d": "Chamas eternas guiam sua mira.\n\nArma de Agilidade de nível 3",
-            "n": "Arco do Dragão Ancião",
-            "sn": "Dragão Antigo"
-          },
-          "zh-CN": {
-            "d": "永恒烈焰指引它的准星。\n\n3阶敏捷武器",
-            "n": "古龙弓",
-            "sn": "远古巨龙"
-          }
-        },
-        "s": {
-          "sb": {
-            "6": {
-              "agi": 4,
-              "arm": 450,
-              "atkp": 10,
-              "crit": 1
-            },
-            "7": {
-              "agi": 6,
-              "arm": 600,
-              "atkp": 20,
-              "crit": 1
-            },
-            "8": {
-              "agi": 10,
-              "arm": 900,
-              "atkp": 30,
-              "crit": 2
-            },
-            "9": {
-              "agi": 16,
-              "arm": 1250,
-              "atkp": 45,
-              "crit": 2
-            },
-            "10": {
-              "agi": 24,
-              "arm": 1600,
-              "atkp": 60,
-              "crit": 4
-            }
-          },
-          "sid": 13
-        }
-      },
-      {
         "id": 1568,
         "sfn": "outfit-crimson-shadow-head",
         "ty": 6,
@@ -7957,6 +7957,57 @@
           "zh-CN": {
             "d": "无影无踪，致命无比。\n\n可从传承战斗通行证获得。",
             "n": "绯红幻影兜帽"
+          }
+        },
+        "s": null
+      },
+      {
+        "id": 2193,
+        "sfn": "mount-pirate-ship",
+        "ty": 3,
+        "st": 7,
+        "q": 0,
+        "lr": 0,
+        "sr": {},
+        "bt": 0,
+        "sta": {
+          "spd": 35
+        },
+        "ss": 0,
+        "vbc": 0,
+        "vbp": 0,
+        "vsc": 0,
+        "vsp": 0,
+        "mmp": 45000000,
+        "mrsf": 44999999,
+        "t": {
+          "en": {
+            "d": "Ship happens. \n\nIncreases your speed by 35.\n\nObtained in Pirate Shores Dungeon.",
+            "n": "Pirate Ship"
+          },
+          "es": {
+            "d": "Cosas de barcos.\n\nAumenta tu velocidad en 35.\n\nSe obtiene en la Mazmorra de Costas Piratas.",
+            "n": "Barco Pirata"
+          },
+          "ja": {
+            "d": "船ではいろいろある。\n\n速度が35上昇する。\n\n海賊海岸ダンジョンで入手できる。",
+            "n": "海賊船"
+          },
+          "ko": {
+            "d": "배 타다 보면 별일 다 있다.\n\n속도가 35 증가한다.\n\n해적 해안 던전에서 획득할 수 있다.",
+            "n": "해적선"
+          },
+          "vi": {
+            "d": "Chuyện tàu bè vẫn cứ xảy ra.\n\nTăng tốc độ của bạn thêm 35.\n\nNhận được trong Hầm Ngục Bờ Biển Hải Tặc.",
+            "n": "Tàu Hải Tặc"
+          },
+          "pt-BR": {
+            "d": "Navios acontecem.\n\nAumenta sua velocidade em 35.\n\nObtido na Masmorra das Costas Piratas.",
+            "n": "Navio Pirata"
+          },
+          "zh-CN": {
+            "d": "船到自然直。\n\n速度提高35。\n\n可在海盗海岸地下城获得。",
+            "n": "海盗船"
           }
         },
         "s": null
@@ -8060,55 +8111,6 @@
         "s": null
       },
       {
-        "id": 154,
-        "sfn": "toobin-croc",
-        "ty": 6,
-        "st": 1,
-        "q": 0,
-        "lr": 0,
-        "sr": [],
-        "bt": 0,
-        "sta": [],
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 0,
-        "vsc": 1,
-        "vsp": 10,
-        "mmp": 400000000,
-        "mrsf": 300000000,
-        "t": {
-          "en": {
-            "d": "For snappy dressers.\n\nLast Available: August 2023\nNext Available: Never\n\nConcept art by Perseus.",
-            "n": "Gator Toobin'"
-          },
-          "es": {
-            "d": "Para quienes visten con mordiente.\n\nÚltima disponibilidad: agosto de 2023\nPróxima disponibilidad: Nunca\n\nArte conceptual de Perseus.",
-            "n": "Tubing de Caimán"
-          },
-          "ja": {
-            "d": "キレのある着こなしをする人に。\n\n前回登場：2023年8月\n次回登場：なし\n\nコンセプトアート：Perseus。",
-            "n": "ゲーター・チュービン"
-          },
-          "ko": {
-            "d": "옷을 물어뜯을 듯 멋지게 입는 이들을 위해.\n\n마지막 판매: 2023년 8월\n다음 판매: 없음\n\n콘셉트 아트: Perseus.",
-            "n": "악어 튜빙"
-          },
-          "vi": {
-            "d": "Dành cho người ăn mặc thật cá sấu sảo.\n\nLần cuối xuất hiện: Tháng 8 năm 2023\nLần tới xuất hiện: Không bao giờ\n\nÝ tưởng mỹ thuật: Perseus.",
-            "n": "Cá Sấu Lướt Phao"
-          },
-          "pt-BR": {
-            "d": "Para quem se veste com uma mordida de estilo.\n\nÚltima disponibilidade: agosto de 2023\nPróxima disponibilidade: Nunca\n\nArte conceitual de Perseus.",
-            "n": "Boia de Jacaré"
-          },
-          "zh-CN": {
-            "d": "献给穿衣风格利落又带点咬劲的人。\n\n上次开放：2023年8月\n下次开放：永不\n\n概念美术：Perseus。",
-            "n": "鳄鱼漂流"
-          }
-        },
-        "s": null
-      },
-      {
         "id": 1531,
         "sfn": "offhand-shield-aegis",
         "ty": 3,
@@ -8160,57 +8162,6 @@
           "zh-CN": {
             "d": "因为闪避太大众了。",
             "n": "神盾"
-          }
-        },
-        "s": null
-      },
-      {
-        "id": 2193,
-        "sfn": "mount-pirate-ship",
-        "ty": 3,
-        "st": 7,
-        "q": 0,
-        "lr": 0,
-        "sr": {},
-        "bt": 0,
-        "sta": {
-          "spd": 35
-        },
-        "ss": 0,
-        "vbc": 0,
-        "vbp": 0,
-        "vsc": 0,
-        "vsp": 0,
-        "mmp": 45000000,
-        "mrsf": 44999999,
-        "t": {
-          "en": {
-            "d": "Ship happens. \n\nIncreases your speed by 35.\n\nObtained in Pirate Shores Dungeon.",
-            "n": "Pirate Ship"
-          },
-          "es": {
-            "d": "Cosas de barcos.\n\nAumenta tu velocidad en 35.\n\nSe obtiene en la Mazmorra de Costas Piratas.",
-            "n": "Barco Pirata"
-          },
-          "ja": {
-            "d": "船ではいろいろある。\n\n速度が35上昇する。\n\n海賊海岸ダンジョンで入手できる。",
-            "n": "海賊船"
-          },
-          "ko": {
-            "d": "배 타다 보면 별일 다 있다.\n\n속도가 35 증가한다.\n\n해적 해안 던전에서 획득할 수 있다.",
-            "n": "해적선"
-          },
-          "vi": {
-            "d": "Chuyện tàu bè vẫn cứ xảy ra.\n\nTăng tốc độ của bạn thêm 35.\n\nNhận được trong Hầm Ngục Bờ Biển Hải Tặc.",
-            "n": "Tàu Hải Tặc"
-          },
-          "pt-BR": {
-            "d": "Navios acontecem.\n\nAumenta sua velocidade em 35.\n\nObtido na Masmorra das Costas Piratas.",
-            "n": "Navio Pirata"
-          },
-          "zh-CN": {
-            "d": "船到自然直。\n\n速度提高35。\n\n可在海盗海岸地下城获得。",
-            "n": "海盗船"
           }
         },
         "s": null
